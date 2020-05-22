@@ -100,6 +100,11 @@ func (q *lockBasedQueryExecutor) ExecuteQueryOnPrivateData(namespace, collection
 	return q.helper.executeQueryOnPrivateData(namespace, collection, query)
 }
 
+// ExecuteQueryOnPrivateDataWithMetadata implements method in interface `ledger.QueryExecutor`
+func (q *lockBasedQueryExecutor) ExecuteQueryOnPrivateDataWithMetadata(namespace, collection, query string, metadata map[string]interface{}) (ledger.QueryResultsIterator, error) {
+	return q.helper.executeQueryOnPrivateDataWithMetadata(namespace, collection, query, metadata)
+}
+
 // Done implements method in interface `ledger.QueryExecutor`
 func (q *lockBasedQueryExecutor) Done() {
 	logger.Debugf("Done with transaction simulation / query execution [%s]", q.txid)

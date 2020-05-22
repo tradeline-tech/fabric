@@ -93,6 +93,10 @@ func (m *MockTxSim) ExecuteQueryOnPrivateData(namespace, collection, query strin
 	return nil, nil
 }
 
+func (m *MockTxSim) ExecuteQueryOnPrivateDataWithMetadata(namespace, collection, query string, metadata map[string]interface{}) (ledger.QueryResultsIterator, error) {
+	return nil, nil
+}
+
 func (m *MockTxSim) GetPrivateData(namespace, collection, key string) ([]byte, error) {
 	return nil, nil
 }

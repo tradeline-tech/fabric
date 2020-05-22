@@ -38,6 +38,7 @@ type DB interface {
 	GetStateMetadata(namespace, key string) ([]byte, error)
 	GetPrivateDataMetadataByHash(namespace, collection string, keyHash []byte) ([]byte, error)
 	ExecuteQueryOnPrivateData(namespace, collection, query string) (statedb.ResultsIterator, error)
+	ExecuteQueryOnPrivateDataWithMetadata(namespace, collection, query string, metadata map[string]interface{}) (statedb.QueryResultsIterator, error)
 	ApplyPrivacyAwareUpdates(updates *UpdateBatch, height *version.Height) error
 }
 

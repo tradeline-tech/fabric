@@ -132,6 +132,14 @@ func (s *lockBasedTxSimulator) ExecuteQueryOnPrivateData(namespace, collection, 
 	return s.lockBasedQueryExecutor.ExecuteQueryOnPrivateData(namespace, collection, query)
 }
 
+// ExecuteQueryOnPrivateDataWithMetadata implements method in interface `ledger.TxSimulator`
+func (s *lockBasedTxSimulator) ExecuteQueryOnPrivateDataWithMetadata(namespace, collection, query string, metadata map[string]interface{}) (ledger.QueryResultsIterator, error) {
+	if err := s.checkBeforePvtdataQueries(); err != nil {
+		return nil, err
+	}
+	return s.lockBasedQueryExecutor.ExecuteQueryOnPrivateDataWithMetadata(namespace, collection, query, metadata)
+}
+
 // GetStateRangeScanIteratorWithMetadata implements method in interface `ledger.QueryExecutor`
 func (s *lockBasedTxSimulator) GetStateRangeScanIteratorWithMetadata(namespace string, startKey string, endKey string, metadata map[string]interface{}) (ledger.QueryResultsIterator, error) {
 	if err := s.checkBeforePaginatedQueries(); err != nil {

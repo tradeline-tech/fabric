@@ -91,6 +91,10 @@ func (m *MockQueryExecutor) ExecuteQueryOnPrivateData(namespace, collection, que
 	return nil, nil
 }
 
+func (m *MockQueryExecutor) ExecuteQueryOnPrivateDataWithMetadata(namespace, collection, query string, metadata map[string]interface{}) (ledger.QueryResultsIterator, error) {
+	return nil, nil
+}
+
 func (m *MockQueryExecutor) Done() {
 }
 

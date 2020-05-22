@@ -1771,6 +1771,11 @@ func (exec *mockQueryExecutor) ExecuteQueryOnPrivateData(namespace, collection, 
 	return args.Get(0).(ledger2.ResultsIterator), args.Error(1)
 }
 
+func (exec *mockQueryExecutor) ExecuteQueryOnPrivateDataWithMetadata(namespace, collection, query string, metadata map[string]interface{}) (ledger.QueryResultsIterator, error) {
+	args := exec.Called(namespace, collection, query, metadata)
+	return args.Get(0).(ledger.QueryResultsIterator), args.Error(1)
+}
+
 func (exec *mockQueryExecutor) Done() {
 }
 

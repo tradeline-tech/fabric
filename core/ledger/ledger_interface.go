@@ -165,11 +165,17 @@ type QueryExecutor interface {
 	// can be supplied as empty strings. However, a full scan shuold be used judiciously for performance reasons.
 	// The returned ResultsIterator contains results of type *KV which is defined in protos/ledger/queryresult.
 	GetPrivateDataRangeScanIterator(namespace, collection, startKey, endKey string) (commonledger.ResultsIterator, error)
-	// ExecuteQuery executes the given query and returns an iterator that contains results of type specific to the underlying data store.
+	// ExecuteQueryOnPrivateData executes the given query and returns an iterator that contains results of type specific to the underlying data store.
 	// Only used for state databases that support query
 	// For a chaincode, the namespace corresponds to the chaincodeId
 	// The returned ResultsIterator contains results of type *KV which is defined in protos/ledger/queryresult.
 	ExecuteQueryOnPrivateData(namespace, collection, query string) (commonledger.ResultsIterator, error)
+	// ExecuteQueryOnPrivateDataWithMetadata executes the given query and returns an iterator that contains results of type specific to the underlying data store.
+	// metadata is a map of additional query parameters
+	// Only used for state databases that support query
+	// For a chaincode, the namespace corresponds to the chaincodeId
+	// The returned ResultsIterator contains results of type *KV which is defined in protos/ledger/queryresult.
+	ExecuteQueryOnPrivateDataWithMetadata(namespace, collection, query string, metadata map[string]interface{}) (QueryResultsIterator, error)
 	// Done releases resources occupied by the QueryExecutor
 	Done()
 }

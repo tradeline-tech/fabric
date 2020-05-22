@@ -9,8 +9,9 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
+
 	commonledger "github.com/tradeline-tech/fabric/common/ledger"
-	ledger "github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger"
 	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
 	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
 	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/storageutil"
@@ -222,6 +223,20 @@ func (h *queryHelper) executeQueryOnPrivateData(namespace, collection, query str
 		return nil, err
 	}
 	return &pvtdataResultsItr{namespace, collection, dbItr}, nil
+}
+
+func (h *queryHelper) executeQueryOnPrivateDataWithMetadata(namespace, collection, query string, metadata map[string]interface{}) (ledger.QueryResultsIterator, error) {
+	if err := h.validateCollName(namespace, collection); err != nil {
+		return nil, err
+	}
+	if err := h.checkDone(); err != nil {
+		return nil, err
+	}
+	dbItr, err := h.txmgr.db.ExecuteQueryOnPrivateDataWithMetadata(namespace, collection, query, metadata)
+	if err != nil {
+		return nil, err
+	}
+	return &pvtdataResultsItr{ns: namespace, coll: collection, dbItr: dbItr}, nil
 }
 
 func (h *queryHelper) getStateMetadata(ns string, key string) (map[string][]byte, error) {
@@ -498,4 +513,12 @@ func (itr *pvtdataResultsItr) Next() (commonledger.QueryResult, error) {
 // Close implements method in interface ledger.ResultsIterator
 func (itr *pvtdataResultsItr) Close() {
 	itr.dbItr.Close()
+}
+
+func (itr *pvtdataResultsItr) GetBookmarkAndClose() string {
+	returnBookmark := ""
+	if queryResultIterator, ok := itr.dbItr.(statedb.QueryResultsIterator); ok {
+		returnBookmark = queryResultIterator.GetBookmarkAndClose()
+	}
+	return returnBookmark
 }

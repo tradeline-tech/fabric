@@ -889,7 +889,18 @@ func (h *Handler) HandleGetQueryResult(msg *pb.ChaincodeMessage, txContext *Tran
 		if err := errorIfCreatorHasNoReadAccess(chaincodeName, collection, txContext); err != nil {
 			return nil, err
 		}
-		executeIter, err = txContext.TXSimulator.ExecuteQueryOnPrivateData(chaincodeName, collection, getQueryResult.Query)
+
+		if isMetadataSetForPagination(metadata) {
+			paginationInfo, err = createPaginationInfoFromMetadata(metadata, totalReturnLimit, pb.ChaincodeMessage_GET_QUERY_RESULT)
+			if err != nil {
+				return nil, err
+			}
+			isPaginated = true
+
+			executeIter, err = txContext.TXSimulator.ExecuteQueryOnPrivateDataWithMetadata(chaincodeName, collection, getQueryResult.Query, paginationInfo)
+		} else {
+			executeIter, err = txContext.TXSimulator.ExecuteQueryOnPrivateData(chaincodeName, collection, getQueryResult.Query)
+		}
 	} else if isMetadataSetForPagination(metadata) {
 		paginationInfo, err = createPaginationInfoFromMetadata(metadata, totalReturnLimit, pb.ChaincodeMessage_GET_QUERY_RESULT)
 		if err != nil {

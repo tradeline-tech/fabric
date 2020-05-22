@@ -206,6 +206,11 @@ func (s CommonStorageDB) ExecuteQueryOnPrivateData(namespace, collection, query 
 	return s.ExecuteQuery(derivePvtDataNs(namespace, collection), query)
 }
 
+// ExecuteQueryOnPrivateDataWithMetadata implements corresponding function in interface DB
+func (s CommonStorageDB) ExecuteQueryOnPrivateDataWithMetadata(namespace, collection, query string, metadata map[string]interface{}) (statedb.QueryResultsIterator, error) {
+	return s.ExecuteQueryWithMetadata(derivePvtDataNs(namespace, collection), query, metadata)
+}
+
 // ApplyUpdates overrides the function in statedb.VersionedDB and throws appropriate error message
 // Otherwise, somewhere in the code, usage of this function could lead to updating only public data.
 func (s *CommonStorageDB) ApplyUpdates(batch *statedb.UpdateBatch, height *version.Height) error {
