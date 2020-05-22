@@ -11,10 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/metrics"
-	"github.com/hyperledger/fabric/gossip/metrics/mocks"
-	"github.com/hyperledger/fabric/gossip/util"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/gossip/metrics"
+	"github.com/tradeline-tech/fabric/gossip/metrics/mocks"
+	"github.com/tradeline-tech/fabric/gossip/util"
 )
 
 func newCommInstanceWithMetrics(t *testing.T, sec *naiveSecProvider, metrics *metrics.CommMetrics) (c Comm, port int) {

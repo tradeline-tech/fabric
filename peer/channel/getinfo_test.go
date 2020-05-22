@@ -10,10 +10,11 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/peer/common"
-	cb "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/peer/common"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 func TestGetChannelInfo(t *testing.T) {

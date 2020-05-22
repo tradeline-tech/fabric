@@ -14,8 +14,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
 	"google.golang.org/grpc/credentials"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 var (

@@ -21,11 +21,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/common/ccpackage"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/core/common/ccpackage"
+	"github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func processSignedCDS(cds *pb.ChaincodeDeploymentSpec, policy *common.SignaturePolicyEnvelope, tofs bool) (*SignedCDSPackage, []byte, *ChaincodeData, error) {

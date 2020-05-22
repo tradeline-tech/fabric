@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package validator
 
 import (
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // MockValidator implements a mock validation useful for testing

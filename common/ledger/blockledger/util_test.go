@@ -9,10 +9,11 @@ package blockledger_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/deliver/mock"
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/deliver/mock"
+	"github.com/tradeline-tech/fabric/common/ledger/blockledger"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestClose(t *testing.T) {

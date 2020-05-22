@@ -7,12 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package chaincode_test
 
 import (
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/core/chaincode/mock"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/chaincode"
+	"github.com/tradeline-tech/fabric/core/chaincode/mock"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 var _ = Describe("TransactionContexts", func() {

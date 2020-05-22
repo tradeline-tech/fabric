@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	bccsp "github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/viperutil"
-	coreconfig "github.com/hyperledger/fabric/core/config"
 	"github.com/spf13/viper"
+	bccsp "github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/viperutil"
+	coreconfig "github.com/tradeline-tech/fabric/core/config"
 )
 
 // Prefix for environment variables.

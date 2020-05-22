@@ -8,11 +8,12 @@ package lockbasedtxmgr
 import (
 	"fmt"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
 	"github.com/pkg/errors"
+
+	commonledger "github.com/tradeline-tech/fabric/common/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/txmgr"
 )
 
 // LockBasedTxSimulator is a transaction simulator used in `LockBasedTxMgr`

@@ -14,11 +14,12 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/op/go-logging"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/protos/ledger/queryresult"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // Logger for the shim package.

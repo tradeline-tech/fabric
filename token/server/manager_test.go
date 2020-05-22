@@ -9,11 +9,12 @@ package server_test
 import (
 	"errors"
 
-	"github.com/hyperledger/fabric/token/ledger/mock"
-	"github.com/hyperledger/fabric/token/server"
-	"github.com/hyperledger/fabric/token/tms/plain"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/token/ledger/mock"
+	"github.com/tradeline-tech/fabric/token/server"
+	"github.com/tradeline-tech/fabric/token/tms/plain"
 )
 
 var _ = Describe("Manager", func() {

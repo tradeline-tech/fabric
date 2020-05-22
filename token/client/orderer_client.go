@@ -12,12 +12,13 @@ import (
 	"io"
 	"strings"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
+
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 //go:generate counterfeiter -o mock/broadcast.go -fake-name Broadcast . Broadcast

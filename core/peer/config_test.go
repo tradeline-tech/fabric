@@ -14,9 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/comm"
 )
 
 func TestCacheConfigurationNegative(t *testing.T) {

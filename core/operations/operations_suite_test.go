@@ -15,9 +15,10 @@ import (
 	"testing"
 
 	"github.com/hyperledger/fabric-lib-go/healthz"
-	"github.com/hyperledger/fabric/common/crypto/tlsgen"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/common/crypto/tlsgen"
 )
 
 func TestOperations(t *testing.T) {

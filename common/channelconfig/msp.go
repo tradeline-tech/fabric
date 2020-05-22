@@ -10,10 +10,11 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/msp/cache"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/msp/cache"
+	mspprotos "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 type pendingMSPConfig struct {

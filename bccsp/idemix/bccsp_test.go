@@ -8,11 +8,12 @@ package idemix_test
 import (
 	"crypto/rand"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/idemix"
-	"github.com/hyperledger/fabric/bccsp/sw"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/idemix"
+	"github.com/tradeline-tech/fabric/bccsp/sw"
 )
 
 var _ = Describe("Idemix Bridge", func() {

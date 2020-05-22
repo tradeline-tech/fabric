@@ -11,13 +11,14 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/util"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	goleveldbutil "github.com/syndtr/goleveldb/leveldb/util"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/ledger/util"
 )
 
 var logger = flogging.MustGetLogger("leveldbhelper")

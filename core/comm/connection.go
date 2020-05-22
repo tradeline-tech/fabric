@@ -18,10 +18,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/config"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/config"
 )
 
 const defaultTimeout = time.Second * 3

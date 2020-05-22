@@ -20,16 +20,17 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/configtxgentest"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/common/cauthdsl"
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/configtxgentest"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/encoder"
+	genesisconfig "github.com/tradeline-tech/fabric/common/tools/configtxgen/localconfig"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	mspprotos "github.com/tradeline-tech/fabric/protos/msp"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var (

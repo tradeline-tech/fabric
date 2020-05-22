@@ -10,10 +10,11 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	bccspfactory "github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	bccspfactory "github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset/kvrwset"
 )
 
 // MerkleTreeLevel used for representing a level of the merkle tree

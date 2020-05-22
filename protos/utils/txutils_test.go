@@ -13,12 +13,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	mockmsp "github.com/hyperledger/fabric/common/mocks/msp"
-	"github.com/hyperledger/fabric/common/util"
-	cb "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	mockmsp "github.com/tradeline-tech/fabric/common/mocks/msp"
+	"github.com/tradeline-tech/fabric/common/util"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestGetPayloads(t *testing.T) {

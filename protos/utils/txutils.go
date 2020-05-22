@@ -11,13 +11,14 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/common/crypto"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // GetPayloads gets the underlying payload objects in a TransactionAction

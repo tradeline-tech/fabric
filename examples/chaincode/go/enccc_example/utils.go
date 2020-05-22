@@ -9,9 +9,9 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/chaincode/shim/ext/entities"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/core/chaincode/shim"
+	"github.com/tradeline-tech/fabric/core/chaincode/shim/ext/entities"
 )
 
 // the functions below show some best practices on how

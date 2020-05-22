@@ -9,9 +9,10 @@ package library
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/handlers/auth"
-	"github.com/hyperledger/fabric/core/handlers/decoration"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/handlers/auth"
+	"github.com/tradeline-tech/fabric/core/handlers/decoration"
 )
 
 func TestInitRegistry(t *testing.T) {

@@ -11,13 +11,14 @@ import (
 	"sync/atomic"
 
 	"github.com/golang/protobuf/proto"
-	gossip_common "github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protos/common"
-	gossip_proto "github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"google.golang.org/grpc"
+
+	gossip_common "github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/protos/common"
+	gossip_proto "github.com/tradeline-tech/fabric/protos/gossip"
+	"github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // MockGossipServiceAdapter mocking structure for gossip service, used to initialize

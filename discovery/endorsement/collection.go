@@ -7,11 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package endorsement
 
 import (
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric/gossip/api"
-	. "github.com/hyperledger/fabric/protos/discovery"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/core/common/privdata"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	. "github.com/tradeline-tech/fabric/protos/discovery"
 )
 
 func principalsFromCollectionConfig(configBytes []byte) (principalSetsByCollectionName, error) {

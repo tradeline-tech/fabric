@@ -19,9 +19,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/chaincode/lib/cid"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/lib/cid"
+	"github.com/tradeline-tech/fabric/protos/msp"
 )
 
 const certWithOutAttrs = `-----BEGIN CERTIFICATE-----

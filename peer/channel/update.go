@@ -21,9 +21,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/peer/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/peer/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func updateCmd(cf *ChannelCmdFactory) *cobra.Command {

@@ -12,9 +12,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	errors "github.com/pkg/errors"
+	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/common"
 )
 
 var (

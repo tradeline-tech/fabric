@@ -6,8 +6,8 @@ SPDX-License-Identifier: Apache-2.0
 package lockbasedtxmgr
 
 import (
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/ledger"
+	commonledger "github.com/tradeline-tech/fabric/common/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger"
 )
 
 // LockBasedQueryExecutor is a query executor used in `LockBasedTxMgr`

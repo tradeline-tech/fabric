@@ -13,17 +13,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	"github.com/hyperledger/fabric/gossip/util"
-	"github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/common/metrics/disabled"
+	"github.com/tradeline-tech/fabric/core/config/configtest"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/metrics"
+	"github.com/tradeline-tech/fabric/gossip/util"
+	"github.com/tradeline-tech/fabric/msp/mgmt"
+	"github.com/tradeline-tech/fabric/msp/mgmt/testtools"
 )
 
 func init() {

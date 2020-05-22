@@ -10,8 +10,9 @@ import (
 	"encoding/hex"
 	"sync"
 
-	"github.com/hyperledger/fabric/bccsp"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp"
 )
 
 // NewInMemoryKeyStore instantiates an ephemeral in-memory keystore

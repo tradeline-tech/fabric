@@ -8,12 +8,13 @@ package privdata
 
 import (
 	"github.com/gogo/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
-	mspp "github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/cauthdsl"
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/protos/common"
+	mspp "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 // getPolicy creates a new policy from the policy envelope. It will return an error if the envelope has invalid policy config.

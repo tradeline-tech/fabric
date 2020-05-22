@@ -16,14 +16,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	utilgossip "github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	utilgossip "github.com/tradeline-tech/fabric/gossip/util"
+	proto "github.com/tradeline-tech/fabric/protos/gossip"
 )
 
 type peerMock struct {

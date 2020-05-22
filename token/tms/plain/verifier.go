@@ -14,13 +14,14 @@ import (
 	"unicode/utf8"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger/customtx"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/protos/utils"
-	"github.com/hyperledger/fabric/token/identity"
-	"github.com/hyperledger/fabric/token/ledger"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/ledger/customtx"
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/protos/utils"
+	"github.com/tradeline-tech/fabric/token/identity"
+	"github.com/tradeline-tech/fabric/token/ledger"
 )
 
 const (

@@ -14,14 +14,14 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/gossip/api"
-	gcommon "github.com/hyperledger/fabric/gossip/common"
-	gdisc "github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	gcommon "github.com/tradeline-tech/fabric/gossip/common"
+	gdisc "github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/discovery"
+	"github.com/tradeline-tech/fabric/protos/gossip"
 )
 
 func TestConfig(t *testing.T) {

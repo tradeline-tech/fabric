@@ -11,9 +11,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/config/configtest"
 )
 
 func TestConfig_AddDevConfigPath(t *testing.T) {

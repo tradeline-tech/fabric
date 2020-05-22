@@ -12,10 +12,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms"
+	"github.com/tradeline-tech/fabric/core/container/ccintf"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 type VMProvider interface {

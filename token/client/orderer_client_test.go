@@ -8,13 +8,14 @@ package client_test
 import (
 	"io"
 
-	"github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/token/client"
-	"github.com/hyperledger/fabric/token/client/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/token/client"
+	"github.com/tradeline-tech/fabric/token/client/mock"
 )
 
 var _ = Describe("OrdererClient", func() {

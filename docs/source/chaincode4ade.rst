@@ -96,8 +96,8 @@ Next, let's add a struct ``SimpleAsset`` as a receiver for Chaincode shim functi
     import (
     	"fmt"
 
-    	"github.com/hyperledger/fabric/core/chaincode/shim"
-    	"github.com/hyperledger/fabric/protos/peer"
+    	"github.com/tradeline-tech/fabric/core/chaincode/shim"
+    	"github.com/tradeline-tech/fabric/protos/peer"
     )
 
     // SimpleAsset implements a simple chaincode to manage an asset
@@ -289,8 +289,8 @@ function. Here's the whole chaincode program source.
     import (
     	"fmt"
 
-    	"github.com/hyperledger/fabric/core/chaincode/shim"
-    	"github.com/hyperledger/fabric/protos/peer"
+    	"github.com/tradeline-tech/fabric/core/chaincode/shim"
+    	"github.com/tradeline-tech/fabric/protos/peer"
     )
 
     // SimpleAsset implements a simple chaincode to manage an asset

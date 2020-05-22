@@ -20,14 +20,15 @@ import (
 	"bytes"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/flogging"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/msp"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	mspmgmt "github.com/tradeline-tech/fabric/msp/mgmt"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/msp"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var putilsLogger = flogging.MustGetLogger("protoutils")

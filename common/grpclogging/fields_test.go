@@ -10,13 +10,14 @@ import (
 	"encoding/json"
 
 	"github.com/golang/protobuf/jsonpb"
-	"github.com/hyperledger/fabric/common/grpclogging"
-	"github.com/hyperledger/fabric/common/grpclogging/testpb"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/grpclogging"
+	"github.com/tradeline-tech/fabric/common/grpclogging/testpb"
 )
 
 var _ = Describe("Fields", func() {

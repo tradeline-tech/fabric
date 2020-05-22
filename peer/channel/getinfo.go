@@ -12,13 +12,14 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/scc/qscc"
-	"github.com/hyperledger/fabric/peer/common"
-	cb "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/core/scc/qscc"
+	"github.com/tradeline-tech/fabric/peer/common"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func getinfoCmd(cf *ChannelCmdFactory) *cobra.Command {

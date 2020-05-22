@@ -10,13 +10,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/crypto"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/crypto"
+	mockconfig "github.com/tradeline-tech/fabric/common/mocks/config"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 const testChannelID = "foo"

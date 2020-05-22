@@ -13,9 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/gossip/util"
 )
 
 const (

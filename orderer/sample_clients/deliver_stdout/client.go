@@ -10,15 +10,16 @@ import (
 	"math"
 	"os"
 
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/localmsp"
-	"github.com/hyperledger/fabric/common/tools/protolator"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/common/crypto"
+	"github.com/tradeline-tech/fabric/common/localmsp"
+	"github.com/tradeline-tech/fabric/common/tools/protolator"
+	mspmgmt "github.com/tradeline-tech/fabric/msp/mgmt"
+	"github.com/tradeline-tech/fabric/orderer/common/localconfig"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var (

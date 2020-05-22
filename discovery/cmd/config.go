@@ -11,9 +11,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hyperledger/fabric/cmd/common"
-	"github.com/hyperledger/fabric/discovery/client"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/cmd/common"
+	"github.com/tradeline-tech/fabric/discovery/client"
 )
 
 // NewConfigCmd creates a new ConfigCmd

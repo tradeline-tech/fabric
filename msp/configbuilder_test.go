@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/core/config/configtest"
 )
 
 func TestGetLocalMspConfig(t *testing.T) {

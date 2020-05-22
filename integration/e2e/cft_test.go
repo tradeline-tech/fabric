@@ -26,14 +26,6 @@ import (
 
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/cmd/common/signer"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/integration/nwo"
-	"github.com/hyperledger/fabric/integration/nwo/commands"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
@@ -41,6 +33,15 @@ import (
 	"github.com/tedsuo/ifrit"
 	"github.com/tedsuo/ifrit/ginkgomon"
 	"github.com/tedsuo/ifrit/grouper"
+
+	"github.com/tradeline-tech/fabric/cmd/common/signer"
+	"github.com/tradeline-tech/fabric/common/configtx"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/integration/nwo"
+	"github.com/tradeline-tech/fabric/integration/nwo/commands"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/msp"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var _ = Describe("EndToEnd Crash Fault Tolerance", func() {
@@ -65,7 +66,7 @@ var _ = Describe("EndToEnd Crash Fault Tolerance", func() {
 		chaincode = nwo.Chaincode{
 			Name:    "mycc",
 			Version: "0.0",
-			Path:    "github.com/hyperledger/fabric/integration/chaincode/simple/cmd",
+			Path:    "github.com/tradeline-tech/fabric/integration/chaincode/simple/cmd",
 			Ctor:    `{"Args":["init","a","100","b","200"]}`,
 			Policy:  `AND ('Org1MSP.member','Org2MSP.member')`,
 		}

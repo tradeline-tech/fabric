@@ -21,12 +21,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/localmsp"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/localmsp"
+	"github.com/tradeline-tech/fabric/msp/mgmt/testtools"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func newPolicyProvider(pEvaluator policyEvaluator) aclmgmtPolicyProvider {

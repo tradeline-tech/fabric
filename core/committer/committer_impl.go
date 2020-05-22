@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package committer
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var logger = flogging.MustGetLogger("committer")

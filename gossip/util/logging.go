@@ -9,8 +9,9 @@ package util
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 // Logger names for logger initialization.

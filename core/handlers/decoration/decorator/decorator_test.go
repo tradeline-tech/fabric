@@ -9,8 +9,9 @@ package decorator
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 func TestDecorator(t *testing.T) {

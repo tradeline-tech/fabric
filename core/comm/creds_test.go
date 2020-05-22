@@ -15,9 +15,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging/floggingtest"
-	"github.com/hyperledger/fabric/core/comm"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/flogging/floggingtest"
+	"github.com/tradeline-tech/fabric/core/comm"
 )
 
 func TestCreds(t *testing.T) {

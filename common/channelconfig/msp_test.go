@@ -9,10 +9,11 @@ package channelconfig
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/msp"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/config/configtest"
+	"github.com/tradeline-tech/fabric/msp"
+	mspprotos "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 func TestMSPConfigManager(t *testing.T) {

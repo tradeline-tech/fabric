@@ -4,8 +4,8 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/token/server"
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/token/server"
 )
 
 type PolicyChecker struct {

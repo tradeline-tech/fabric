@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package server_test
 
 import (
-	"github.com/hyperledger/fabric/token/server"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/token/server"
 )
 
 var _ = Describe("LedgerManager", func() {

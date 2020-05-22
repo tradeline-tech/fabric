@@ -10,9 +10,9 @@ import (
 	"math/rand"
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // TestValidConfigID checks that the constraints on chain IDs are enforced properly

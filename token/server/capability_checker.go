@@ -6,8 +6,9 @@ SPDX-License-Identifier: Apache-2.0
 package server
 
 import (
-	"github.com/hyperledger/fabric/core/peer"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/core/peer"
 )
 
 //go:generate counterfeiter -o mock/capability_checker.go -fake-name CapabilityChecker . CapabilityChecker

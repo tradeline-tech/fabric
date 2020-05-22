@@ -12,12 +12,13 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 var logger = flogging.MustGetLogger("server")

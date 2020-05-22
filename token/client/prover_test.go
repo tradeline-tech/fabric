@@ -12,12 +12,13 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/token/client"
-	"github.com/hyperledger/fabric/token/client/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/token/client"
+	"github.com/tradeline-tech/fabric/token/client/mock"
 )
 
 //go:generate counterfeiter -o mock/prover_client.go -fake-name ProverClient . proverClient

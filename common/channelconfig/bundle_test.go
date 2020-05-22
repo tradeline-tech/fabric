@@ -9,10 +9,11 @@ package channelconfig
 import (
 	"testing"
 
-	cc "github.com/hyperledger/fabric/common/capabilities"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
 	"github.com/stretchr/testify/assert"
+
+	cc "github.com/tradeline-tech/fabric/common/capabilities"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 func TestValidateNew(t *testing.T) {

@@ -9,9 +9,10 @@ package nwo
 import (
 	"encoding/json"
 
-	"github.com/hyperledger/fabric/integration/nwo/commands"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
+
+	"github.com/tradeline-tech/fabric/integration/nwo/commands"
 )
 
 // DiscoveredPeer defines a struct for discovering peers using discovery service.

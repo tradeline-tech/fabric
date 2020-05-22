@@ -10,9 +10,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-amcl/amcl/FP256BN"
-	"github.com/hyperledger/fabric/bccsp"
-	cryptolib "github.com/hyperledger/fabric/idemix"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	cryptolib "github.com/tradeline-tech/fabric/idemix"
 )
 
 // Revocation encapsulates the idemix algorithms for revocation

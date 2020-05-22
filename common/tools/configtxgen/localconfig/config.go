@@ -12,13 +12,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/common/viperutil"
-	cf "github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/orderer/etcdraft"
 	"github.com/spf13/viper"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/common/viperutil"
+	cf "github.com/tradeline-tech/fabric/core/config"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/protos/orderer/etcdraft"
 )
 
 const (

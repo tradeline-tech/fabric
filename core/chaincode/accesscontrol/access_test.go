@@ -17,13 +17,14 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/crypto/tlsgen"
-	"github.com/hyperledger/fabric/common/flogging/floggingtest"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zapcore"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
+
+	"github.com/tradeline-tech/fabric/common/crypto/tlsgen"
+	"github.com/tradeline-tech/fabric/common/flogging/floggingtest"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 type ccSrv struct {

@@ -8,12 +8,12 @@ package e2e
 
 import (
 	"encoding/json"
+	"testing"
 
-	"github.com/hyperledger/fabric/integration/nwo"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"testing"
+	"github.com/tradeline-tech/fabric/integration/nwo"
 )
 
 func TestEndToEnd(t *testing.T) {

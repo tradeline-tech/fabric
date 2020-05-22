@@ -9,9 +9,10 @@ package mocks
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 type MockACLProvider struct {

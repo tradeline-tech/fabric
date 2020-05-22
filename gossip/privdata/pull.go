@@ -14,19 +14,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/filter"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	privdatacommon "github.com/hyperledger/fabric/gossip/privdata/common"
-	"github.com/hyperledger/fabric/gossip/util"
-	fcommon "github.com/hyperledger/fabric/protos/common"
-	proto "github.com/hyperledger/fabric/protos/gossip"
 	"github.com/pkg/errors"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/core/common/privdata"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/comm"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/gossip/filter"
+	"github.com/tradeline-tech/fabric/gossip/metrics"
+	privdatacommon "github.com/tradeline-tech/fabric/gossip/privdata/common"
+	"github.com/tradeline-tech/fabric/gossip/util"
+	fcommon "github.com/tradeline-tech/fabric/protos/common"
+	proto "github.com/tradeline-tech/fabric/protos/gossip"
 )
 
 const (

@@ -13,10 +13,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/flogging/mock"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/flogging/mock"
 )
 
 func TestNew(t *testing.T) {

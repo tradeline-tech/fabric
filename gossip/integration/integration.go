@@ -11,18 +11,19 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/election"
-	"github.com/hyperledger/fabric/gossip/gossip"
-	"github.com/hyperledger/fabric/gossip/gossip/algo"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	"github.com/hyperledger/fabric/gossip/util"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/comm"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/gossip/election"
+	"github.com/tradeline-tech/fabric/gossip/gossip"
+	"github.com/tradeline-tech/fabric/gossip/gossip/algo"
+	"github.com/tradeline-tech/fabric/gossip/metrics"
+	"github.com/tradeline-tech/fabric/gossip/util"
 )
 
 // This file is used to bootstrap a gossip instance and/or leader election service instance

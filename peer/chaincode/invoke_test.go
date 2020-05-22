@@ -13,20 +13,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging/floggingtest"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/msp"
-	ccapi "github.com/hyperledger/fabric/peer/chaincode/api"
-	"github.com/hyperledger/fabric/peer/chaincode/mock"
-	"github.com/hyperledger/fabric/peer/common"
-	"github.com/hyperledger/fabric/peer/common/api"
-	cmock "github.com/hyperledger/fabric/peer/common/mock"
-	cb "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/common/flogging/floggingtest"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/msp"
+	ccapi "github.com/tradeline-tech/fabric/peer/chaincode/api"
+	"github.com/tradeline-tech/fabric/peer/chaincode/mock"
+	"github.com/tradeline-tech/fabric/peer/common"
+	"github.com/tradeline-tech/fabric/peer/common/api"
+	cmock "github.com/tradeline-tech/fabric/peer/common/mock"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestInvokeCmd(t *testing.T) {

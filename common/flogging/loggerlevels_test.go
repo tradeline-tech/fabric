@@ -11,9 +11,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 func TestLoggerLevelsActivateSpec(t *testing.T) {

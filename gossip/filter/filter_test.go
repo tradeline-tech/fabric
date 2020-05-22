@@ -9,10 +9,11 @@ package filter
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/gossip/comm"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/discovery"
 )
 
 func TestSelectPolicies(t *testing.T) {

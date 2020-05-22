@@ -7,16 +7,17 @@ SPDX-License-Identifier: Apache-2.0
 package multichannel
 
 import (
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	"github.com/hyperledger/fabric/orderer/common/msgprocessor"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/crypto"
+	"github.com/tradeline-tech/fabric/common/ledger/blockledger"
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/orderer/common/blockcutter"
+	"github.com/tradeline-tech/fabric/orderer/common/msgprocessor"
+	"github.com/tradeline-tech/fabric/orderer/consensus"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // ChainSupport holds the resources for a particular channel.

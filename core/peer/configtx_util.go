@@ -8,9 +8,10 @@ package peer
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 // computeFullConfig computes the full resource configuration given the current resource bundle and the transaction (that contains the delta)

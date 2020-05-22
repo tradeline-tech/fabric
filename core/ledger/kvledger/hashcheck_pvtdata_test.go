@@ -12,11 +12,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/ledger/testutil"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset"
 )
 
 func TestConstructValidInvalidBlocksPvtData(t *testing.T) {

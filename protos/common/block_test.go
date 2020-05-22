@@ -21,8 +21,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/util"
 )
 
 func TestBlock(t *testing.T) {

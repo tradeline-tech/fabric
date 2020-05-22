@@ -10,10 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/crypto/tlsgen"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/common/crypto/tlsgen"
 )
 
 func TestPurge(t *testing.T) {

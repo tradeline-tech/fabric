@@ -11,9 +11,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/msp"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/config/configtest"
+	"github.com/tradeline-tech/fabric/msp"
 )
 
 func TestNewDeserializersManager(t *testing.T) {

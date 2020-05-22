@@ -13,8 +13,9 @@ import (
 	"strings"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 // constructCheckpointInfoFromBlockFiles scans the last blockfile (if any) and construct the checkpoint info

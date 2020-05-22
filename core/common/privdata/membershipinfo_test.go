@@ -9,10 +9,10 @@ package privdata
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/common/cauthdsl"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestMembershipInfoProvider(t *testing.T) {

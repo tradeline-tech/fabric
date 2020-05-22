@@ -11,10 +11,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-amcl/amcl/FP256BN"
-	"github.com/hyperledger/fabric/idemix"
-	"github.com/hyperledger/fabric/msp"
-	m "github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/idemix"
+	"github.com/tradeline-tech/fabric/msp"
+	m "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 // GenerateIssuerKey invokes Idemix library to generate an issuer (CA) signing key pair.

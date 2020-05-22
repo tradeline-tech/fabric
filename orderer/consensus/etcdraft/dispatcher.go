@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package etcdraft
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/protos/orderer"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 //go:generate mockery -dir . -name MessageReceiver -case underscore -output mocks

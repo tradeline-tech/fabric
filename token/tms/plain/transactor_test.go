@@ -13,14 +13,15 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/token/ledger/mock"
-	"github.com/hyperledger/fabric/token/tms/plain"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/ledger"
+	"github.com/tradeline-tech/fabric/protos/ledger/queryresult"
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/token/ledger/mock"
+	"github.com/tradeline-tech/fabric/token/tms/plain"
 )
 
 type nextReturns struct {

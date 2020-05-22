@@ -10,11 +10,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/hyperledger/fabric/common/grpclogging"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/grpclogging"
 )
 
 var _ = Describe("Context", func() {

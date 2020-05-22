@@ -7,15 +7,15 @@ SPDX-License-Identifier: Apache-2.0
 package common
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/localmsp"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/peer/common/api"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/localmsp"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/peer/common/api"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var (

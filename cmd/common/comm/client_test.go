@@ -15,9 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/tradeline-tech/fabric/core/comm"
 )
 
 func TestTLSClient(t *testing.T) {

@@ -14,17 +14,17 @@ excluded_packages=(
 
 # regexes for packages that must be run serially
 serial_packages=(
-    "github.com/hyperledger/fabric/gossip"
+    "github.com/tradeline-tech/fabric/gossip"
 )
 
 # packages which need to be tested with build tag pluginsenabled
 plugin_packages=(
-    "github.com/hyperledger/fabric/core/scc"
+    "github.com/tradeline-tech/fabric/core/scc"
 )
 
 # packages which need to be tested with build tag pkcs11
 pkcs11_packages=(
-    "github.com/hyperledger/fabric/bccsp/..."
+    "github.com/tradeline-tech/fabric/bccsp/..."
 )
 
 # obtain packages changed since some git refspec
@@ -32,7 +32,7 @@ packages_diff() {
     git -C "${GOPATH}/src/github.com/hyperledger/fabric" diff --no-commit-id --name-only -r "${1:-HEAD}" |
         grep '.go$' | grep -Ev '^vendor/|^build/' | \
         sed 's%/[^/]*$%/%' | sort -u | \
-        awk '{print "github.com/hyperledger/fabric/"$1"..."}'
+        awk '{print "github.com/tradeline-tech/fabric/"$1"..."}'
 }
 
 # "go list" packages and filter out excluded packages
@@ -113,7 +113,7 @@ main() {
     # extra exclusions for ppc and s390x
     local arch=`uname -m`
     if [ x${arch} == xppc64le -o x${arch} == xs390x ]; then
-        excluded_packages+=("github.com/hyperledger/fabric/core/chaincode/platforms/java")
+        excluded_packages+=("github.com/tradeline-tech/fabric/core/chaincode/platforms/java")
     fi
 
     # when running a "verify" job, only test packages that have changed

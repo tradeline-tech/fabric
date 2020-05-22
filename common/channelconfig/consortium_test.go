@@ -8,9 +8,10 @@ package channelconfig
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/msp"
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestConsortiumConfig(t *testing.T) {

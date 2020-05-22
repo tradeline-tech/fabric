@@ -12,9 +12,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/peer/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/peer/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 func TestChaincodeListCmd(t *testing.T) {

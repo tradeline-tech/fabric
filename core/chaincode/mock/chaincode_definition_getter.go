@@ -4,8 +4,8 @@ package mock
 import (
 	sync "sync"
 
-	ccprovider "github.com/hyperledger/fabric/core/common/ccprovider"
-	ledger "github.com/hyperledger/fabric/core/ledger"
+	ccprovider "github.com/tradeline-tech/fabric/core/common/ccprovider"
+	ledger "github.com/tradeline-tech/fabric/core/ledger"
 )
 
 type ChaincodeDefinitionGetter struct {

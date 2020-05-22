@@ -10,11 +10,12 @@ import (
 	"context"
 	"sync"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
+
+	commonledger "github.com/tradeline-tech/fabric/common/ledger"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 type key string

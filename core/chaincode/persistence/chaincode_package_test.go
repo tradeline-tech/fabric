@@ -9,9 +9,10 @@ package persistence_test
 import (
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/core/chaincode/persistence"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/persistence"
 )
 
 var _ = Describe("ChaincodePackageParser", func() {

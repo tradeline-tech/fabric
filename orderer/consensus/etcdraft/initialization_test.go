@@ -9,14 +9,15 @@ package etcdraft_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/orderer/common/cluster"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	"github.com/hyperledger/fabric/orderer/common/multichannel"
-	"github.com/hyperledger/fabric/orderer/consensus/etcdraft"
-	"github.com/hyperledger/fabric/orderer/consensus/etcdraft/mocks"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/metrics/disabled"
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/orderer/common/cluster"
+	"github.com/tradeline-tech/fabric/orderer/common/localconfig"
+	"github.com/tradeline-tech/fabric/orderer/common/multichannel"
+	"github.com/tradeline-tech/fabric/orderer/consensus/etcdraft"
+	"github.com/tradeline-tech/fabric/orderer/consensus/etcdraft/mocks"
 )
 
 func TestNewEtcdRaftConsenter(t *testing.T) {

@@ -16,14 +16,15 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
+
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/core/deliverservice/blocksprovider"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestTLSBinding(t *testing.T) {

@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/token/identity"
+	"github.com/tradeline-tech/fabric/token/identity"
 )
 
 type PublicInfo struct {

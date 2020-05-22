@@ -9,9 +9,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/common/util"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/metrics/disabled"
+	"github.com/tradeline-tech/fabric/common/util"
 )
 
 //Unit test of couch db util functionality

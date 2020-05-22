@@ -14,8 +14,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/hyperledger/fabric/bccsp"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp"
 )
 
 // revocationSecretKey contains the revocation secret key

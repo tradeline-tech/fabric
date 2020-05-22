@@ -16,9 +16,10 @@ import (
 	"encoding/pem"
 	"math/big"
 
-	"github.com/hyperledger/fabric/common/util"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/peer"
+
+	"github.com/tradeline-tech/fabric/common/util"
 )
 
 // GenerateCertificatesOrPanic generates a a random pair of public and private keys

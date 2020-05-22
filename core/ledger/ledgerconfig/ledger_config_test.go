@@ -19,9 +19,10 @@ package ledgerconfig
 import (
 	"testing"
 
-	ledgertestutil "github.com/hyperledger/fabric/core/ledger/testutil"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+
+	ledgertestutil "github.com/tradeline-tech/fabric/core/ledger/testutil"
 )
 
 func TestIsCouchDBEnabledDefault(t *testing.T) {

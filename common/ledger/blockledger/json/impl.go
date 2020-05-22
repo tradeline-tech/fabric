@@ -14,11 +14,12 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/jsonpb"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/ledger/blockledger"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 var logger = flogging.MustGetLogger("common.ledger.blockledger.json")

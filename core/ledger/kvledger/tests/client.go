@@ -10,11 +10,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric/core/ledger"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/common/privdata"
+	"github.com/tradeline-tech/fabric/core/ledger"
 )
 
 // client helps in a transction simulation. The client keeps accumlating the results of each simulated transaction

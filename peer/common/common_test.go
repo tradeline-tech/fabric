@@ -12,13 +12,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/peer/common"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/config/configtest"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/peer/common"
 )
 
 func TestInitConfig(t *testing.T) {

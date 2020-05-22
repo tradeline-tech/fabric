@@ -11,10 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/common/crypto/tlsgen"
-	"github.com/hyperledger/fabric/common/util"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/peer"
+
+	"github.com/tradeline-tech/fabric/common/crypto/tlsgen"
+	"github.com/tradeline-tech/fabric/common/util"
 )
 
 var ttl = time.Minute * 10

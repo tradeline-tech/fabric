@@ -23,12 +23,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/sw"
+	"github.com/tradeline-tech/fabric/bccsp/utils"
+	"github.com/tradeline-tech/fabric/core/config/configtest"
+	"github.com/tradeline-tech/fabric/protos/msp"
 )
 
 var notACert = `-----BEGIN X509 CRL-----

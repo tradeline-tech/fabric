@@ -7,11 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package manager_test
 
 import (
-	mockid "github.com/hyperledger/fabric/token/identity/mock"
-	"github.com/hyperledger/fabric/token/tms/manager"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	mockid "github.com/tradeline-tech/fabric/token/identity/mock"
+	"github.com/tradeline-tech/fabric/token/tms/manager"
 )
 
 var _ = Describe("AllIssuingValidator", func() {

@@ -10,15 +10,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/car"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/java"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/node"
-	"github.com/hyperledger/fabric/peer/common"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms/car"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms/golang"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms/java"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms/node"
+	"github.com/tradeline-tech/fabric/peer/common"
 )
 
 const (

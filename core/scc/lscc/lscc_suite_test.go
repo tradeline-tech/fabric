@@ -9,13 +9,14 @@ package lscc_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/sysccprovider"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/scc/lscc"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/shim"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/common/sysccprovider"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/scc/lscc"
 )
 
 //go:generate counterfeiter -o mock/sysccprovider.go --fake-name SystemChaincodeProvider . systemChaincodeProvider

@@ -11,9 +11,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/protos/token"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/protos/token"
 )
 
 // UnmarshalCommand unmarshal token.Command messages

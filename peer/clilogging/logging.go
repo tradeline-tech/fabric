@@ -9,9 +9,10 @@ package clilogging
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/peer/common"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/peer/common"
 )
 
 const (

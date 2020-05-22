@@ -26,10 +26,11 @@ import (
 	"path/filepath"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/util"
-	cutil "github.com/hyperledger/fabric/core/container/util"
 	"github.com/spf13/viper"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/util"
+	cutil "github.com/tradeline-tech/fabric/core/container/util"
 )
 
 var logger = flogging.MustGetLogger("chaincode.platform.util")

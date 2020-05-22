@@ -17,17 +17,18 @@ import (
 
 	kitstatsd "github.com/go-kit/kit/metrics/statsd"
 	"github.com/hyperledger/fabric-lib-go/healthz"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/flogging/httpadmin"
-	"github.com/hyperledger/fabric/common/metadata"
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/common/metrics/prometheus"
-	"github.com/hyperledger/fabric/common/metrics/statsd"
-	"github.com/hyperledger/fabric/common/metrics/statsd/goruntime"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/middleware"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/flogging/httpadmin"
+	"github.com/tradeline-tech/fabric/common/metadata"
+	"github.com/tradeline-tech/fabric/common/metrics"
+	"github.com/tradeline-tech/fabric/common/metrics/disabled"
+	"github.com/tradeline-tech/fabric/common/metrics/prometheus"
+	"github.com/tradeline-tech/fabric/common/metrics/statsd"
+	"github.com/tradeline-tech/fabric/common/metrics/statsd/goruntime"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/middleware"
 )
 
 //go:generate counterfeiter -o fakes/logger.go -fake-name Logger . Logger

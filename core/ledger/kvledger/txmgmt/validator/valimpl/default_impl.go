@@ -7,15 +7,15 @@ SPDX-License-Identifier: Apache-2.0
 package valimpl
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator/internal"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator/statebasedval"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/validator"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/validator/internal"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/validator/statebasedval"
+	"github.com/tradeline-tech/fabric/core/ledger/util"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 var logger = flogging.MustGetLogger("valimpl")

@@ -13,9 +13,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hyperledger/fabric/protos/token"
-	tk "github.com/hyperledger/fabric/token"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/token"
+	tk "github.com/tradeline-tech/fabric/token"
 )
 
 type TimeFunc func() time.Time

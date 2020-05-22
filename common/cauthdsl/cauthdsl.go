@@ -10,11 +10,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mb "github.com/hyperledger/fabric/protos/msp"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/msp"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	mb "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 var cauthdslLogger = flogging.MustGetLogger("cauthdsl")

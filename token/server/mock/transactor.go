@@ -4,8 +4,8 @@ package mock
 import (
 	sync "sync"
 
-	token "github.com/hyperledger/fabric/protos/token"
-	server "github.com/hyperledger/fabric/token/server"
+	token "github.com/tradeline-tech/fabric/protos/token"
+	server "github.com/tradeline-tech/fabric/token/server"
 )
 
 type Transactor struct {

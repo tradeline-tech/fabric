@@ -9,8 +9,9 @@ package policies
 import (
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 func basicTest(t *testing.T, sv *StandardConfigPolicy) {

@@ -12,8 +12,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/orderer/etcdraft"
 	"github.com/stretchr/testify/require"
+
+	"github.com/tradeline-tech/fabric/protos/orderer/etcdraft"
 )
 
 func TestMarshal(t *testing.T) {

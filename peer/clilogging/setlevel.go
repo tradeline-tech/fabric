@@ -9,8 +9,9 @@ package clilogging
 import (
 	"context"
 
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/spf13/cobra"
+
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 func setLevelCmd(cf *LoggingCmdFactory) *cobra.Command {

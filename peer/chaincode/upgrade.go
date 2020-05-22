@@ -11,10 +11,11 @@ import (
 	"errors"
 	"fmt"
 
-	protcommon "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/spf13/cobra"
+
+	protcommon "github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var chaincodeUpgradeCmd *cobra.Command

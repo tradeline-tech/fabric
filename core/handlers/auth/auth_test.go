@@ -11,8 +11,9 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 func TestChainFilters(t *testing.T) {

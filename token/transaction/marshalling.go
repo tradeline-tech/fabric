@@ -8,12 +8,13 @@ package transaction
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/common"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/protos/utils"
-	"github.com/hyperledger/fabric/token/identity"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/common"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/protos/utils"
+	"github.com/tradeline-tech/fabric/token/identity"
 )
 
 func UnmarshalTokenTransaction(raw []byte) (*cb.ChannelHeader, *token.TokenTransaction, identity.PublicInfo, error) {

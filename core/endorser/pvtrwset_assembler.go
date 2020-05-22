@@ -13,11 +13,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
-	"github.com/hyperledger/fabric/protos/transientstore"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/core/common/privdata"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset"
+	"github.com/tradeline-tech/fabric/protos/transientstore"
 )
 
 // PvtRWSetAssembler assembles private read write set for distribution

@@ -10,10 +10,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/msp"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestOutOf1(t *testing.T) {

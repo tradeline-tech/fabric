@@ -9,8 +9,9 @@ package ledgerconfig
 import (
 	"path/filepath"
 
-	"github.com/hyperledger/fabric/core/config"
 	"github.com/spf13/viper"
+
+	"github.com/tradeline-tech/fabric/core/config"
 )
 
 //IsCouchDBEnabled exposes the useCouchDB variable

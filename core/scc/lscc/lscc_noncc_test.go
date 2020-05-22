@@ -10,12 +10,13 @@ import (
 	"errors"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/scc/lscc"
-	"github.com/hyperledger/fabric/core/scc/lscc/mock"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/scc/lscc"
+	"github.com/tradeline-tech/fabric/core/scc/lscc/mock"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 var _ = Describe("LSCC", func() {

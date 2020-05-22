@@ -13,10 +13,11 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/token/ledger"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/ledger/queryresult"
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/token/ledger"
 )
 
 // A Transactor that can transfer tokens.

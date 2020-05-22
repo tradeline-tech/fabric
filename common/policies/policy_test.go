@@ -13,9 +13,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
+
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/msp"
 )
 
 type mockProvider struct{}

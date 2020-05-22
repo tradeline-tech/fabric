@@ -10,15 +10,16 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	mockchannelconfig "github.com/hyperledger/fabric/common/mocks/config"
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/common/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	mockchannelconfig "github.com/tradeline-tech/fabric/common/mocks/config"
+	mockpolicies "github.com/tradeline-tech/fabric/common/mocks/policies"
+	"github.com/tradeline-tech/fabric/common/policies"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func init() {

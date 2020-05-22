@@ -9,7 +9,7 @@ package ccprovider
 import (
 	"path/filepath"
 
-	"github.com/hyperledger/fabric/core/config"
+	"github.com/tradeline-tech/fabric/core/config"
 )
 
 // GetChaincodeInstallPathFromViper returns the path where chaincodes are installed

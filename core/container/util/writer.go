@@ -17,9 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/ccmetadata"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms/ccmetadata"
 )
 
 var vmLogger = flogging.MustGetLogger("container")

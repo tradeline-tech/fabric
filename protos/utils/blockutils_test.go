@@ -10,11 +10,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	configtxtest "github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/protos/common"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	configtxtest "github.com/tradeline-tech/fabric/common/configtx/test"
+	"github.com/tradeline-tech/fabric/protos/common"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var testChainID = "myuniquetestchainid"

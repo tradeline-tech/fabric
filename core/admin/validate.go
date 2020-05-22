@@ -10,11 +10,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var (

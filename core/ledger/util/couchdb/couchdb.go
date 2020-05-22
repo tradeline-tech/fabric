@@ -27,10 +27,11 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
 	"github.com/pkg/errors"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/ledger/ledgerconfig"
 )
 
 var logger = flogging.MustGetLogger("couchdb")

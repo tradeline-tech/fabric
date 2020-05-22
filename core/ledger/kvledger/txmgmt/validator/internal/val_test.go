@@ -9,11 +9,12 @@ package internal
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset/kvrwset"
 )
 
 func TestNewPubAndHashUpdates(t *testing.T) {

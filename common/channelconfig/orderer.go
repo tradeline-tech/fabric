@@ -13,10 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/capabilities"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/capabilities"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 const (

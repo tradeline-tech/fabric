@@ -11,12 +11,13 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/gossip"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset"
 )
 
 // PvtDataCollections data type to encapsulate collections

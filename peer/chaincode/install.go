@@ -14,13 +14,14 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/common/ccpackage"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/peer/common"
-	pcommon "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/core/common/ccpackage"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/peer/common"
+	pcommon "github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var chaincodeInstallCmd *cobra.Command

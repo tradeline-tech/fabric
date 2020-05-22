@@ -12,11 +12,12 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	commonmetrics "github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/common/metrics/prometheus"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	prom "github.com/prometheus/client_golang/prometheus"
+
+	commonmetrics "github.com/tradeline-tech/fabric/common/metrics"
+	"github.com/tradeline-tech/fabric/common/metrics/prometheus"
 )
 
 var _ = Describe("Provider", func() {

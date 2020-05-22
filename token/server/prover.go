@@ -9,8 +9,9 @@ package server
 import (
 	"context"
 
-	"github.com/hyperledger/fabric/protos/token"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/token"
 )
 
 //go:generate counterfeiter -o mock/access_control.go -fake-name PolicyChecker . PolicyChecker

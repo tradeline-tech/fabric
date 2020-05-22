@@ -6,8 +6,9 @@ SPDX-License-Identifier: Apache-2.0
 package node
 
 import (
-	"github.com/hyperledger/fabric/core/ledger/kvledger"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger"
 )
 
 func resetCmd() *cobra.Command {

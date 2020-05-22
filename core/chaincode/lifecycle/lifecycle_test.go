@@ -9,10 +9,11 @@ package lifecycle_test
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/chaincode/lifecycle"
-	"github.com/hyperledger/fabric/core/chaincode/lifecycle/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/lifecycle"
+	"github.com/tradeline-tech/fabric/core/chaincode/lifecycle/mock"
 )
 
 var _ = Describe("Lifecycle", func() {

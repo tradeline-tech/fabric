@@ -9,9 +9,10 @@ package plain
 import (
 	"strconv"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/shim"
 )
 
 var _ = Describe("Composite keys", func() {

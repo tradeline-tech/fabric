@@ -7,10 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package cache
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/msp"
-	pmsp "github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/msp"
+	pmsp "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 const (

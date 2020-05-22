@@ -11,18 +11,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/filter"
-	"github.com/hyperledger/fabric/gossip/gossip"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/comm"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/gossip/filter"
+	"github.com/tradeline-tech/fabric/gossip/gossip"
+	"github.com/tradeline-tech/fabric/gossip/util"
+	proto "github.com/tradeline-tech/fabric/protos/gossip"
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 type secAdvMock struct {

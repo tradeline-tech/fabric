@@ -18,17 +18,18 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/handlers/endorsement/api"
-	"github.com/hyperledger/fabric/core/handlers/validation/api"
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/handlers/endorsement/api"
+	"github.com/tradeline-tech/fabric/core/handlers/validation/api"
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 const (
-	authPluginPackage      = "github.com/hyperledger/fabric/core/handlers/auth/plugin"
-	decoratorPluginPackage = "github.com/hyperledger/fabric/core/handlers/decoration/plugin"
-	endorsementTestPlugin  = "github.com/hyperledger/fabric/core/handlers/endorsement/testdata/"
-	validationTestPlugin   = "github.com/hyperledger/fabric/core/handlers/validation/testdata/"
+	authPluginPackage      = "github.com/tradeline-tech/fabric/core/handlers/auth/plugin"
+	decoratorPluginPackage = "github.com/tradeline-tech/fabric/core/handlers/decoration/plugin"
+	endorsementTestPlugin  = "github.com/tradeline-tech/fabric/core/handlers/endorsement/testdata/"
+	validationTestPlugin   = "github.com/tradeline-tech/fabric/core/handlers/validation/testdata/"
 )
 
 // raceEnabled is set to true when the race build tag is enabled.

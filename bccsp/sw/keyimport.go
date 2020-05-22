@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/utils"
 )
 
 type aes256ImportKeyOptsKeyImporter struct{}

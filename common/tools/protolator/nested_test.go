@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/tools/protolator/testprotos"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/common/tools/protolator/testprotos"
 )
 
 func TestPlainNestedMsg(t *testing.T) {

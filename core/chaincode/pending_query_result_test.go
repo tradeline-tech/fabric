@@ -10,11 +10,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/core/chaincode"
+	"github.com/tradeline-tech/fabric/protos/ledger/queryresult"
 )
 
 var _ = Describe("PendingQueryResult", func() {

@@ -24,10 +24,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/tools/configtxlator/sanitycheck"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/tools/configtxlator/sanitycheck"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestProtolatorComputeConfigUpdate(t *testing.T) {

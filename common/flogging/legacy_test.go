@@ -9,8 +9,9 @@ package flogging_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 func TestLegacyInitFromSpec(t *testing.T) {

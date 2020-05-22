@@ -8,16 +8,16 @@ package lockbasedtxmgr
 import (
 	"testing"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	btltestutil "github.com/hyperledger/fabric/core/ledger/pvtdatapolicy/testutil"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/assert"
+	commonledger "github.com/tradeline-tech/fabric/common/ledger"
+	"github.com/tradeline-tech/fabric/common/ledger/testutil"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	btltestutil "github.com/tradeline-tech/fabric/core/ledger/pvtdatapolicy/testutil"
+	"github.com/tradeline-tech/fabric/core/ledger/util"
+	"github.com/tradeline-tech/fabric/protos/ledger/queryresult"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset/kvrwset"
 )
 
 func TestPvtdataResultsItr(t *testing.T) {

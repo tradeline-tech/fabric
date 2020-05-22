@@ -9,10 +9,11 @@ package channelconfig
 import (
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
+
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	mspprotos "github.com/tradeline-tech/fabric/protos/msp"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // The tests in this file are all relatively pointless, as all of this function is exercised

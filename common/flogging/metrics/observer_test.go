@@ -9,11 +9,12 @@ package metrics_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging/metrics"
-	commonmetrics "github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/flogging/metrics"
+	commonmetrics "github.com/tradeline-tech/fabric/common/metrics"
+	"github.com/tradeline-tech/fabric/common/metrics/metricsfakes"
 )
 
 func TestNewObserver(t *testing.T) {

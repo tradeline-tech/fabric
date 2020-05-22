@@ -13,18 +13,19 @@ import (
 	"time"
 
 	pb "github.com/golang/protobuf/proto"
-	vsccErrors "github.com/hyperledger/fabric/common/errors"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/comm"
-	common2 "github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	"github.com/hyperledger/fabric/gossip/util"
-	"github.com/hyperledger/fabric/protos/common"
-	proto "github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
-	"github.com/hyperledger/fabric/protos/transientstore"
 	"github.com/pkg/errors"
+
+	vsccErrors "github.com/tradeline-tech/fabric/common/errors"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/comm"
+	common2 "github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/gossip/metrics"
+	"github.com/tradeline-tech/fabric/gossip/util"
+	"github.com/tradeline-tech/fabric/protos/common"
+	proto "github.com/tradeline-tech/fabric/protos/gossip"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset"
+	"github.com/tradeline-tech/fabric/protos/transientstore"
 )
 
 // GossipStateProvider is the interface to acquire sequences of the ledger blocks

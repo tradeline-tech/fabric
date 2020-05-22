@@ -9,10 +9,11 @@ package lifecycle_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/chaincode/lifecycle"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/lifecycle"
+	"github.com/tradeline-tech/fabric/core/chaincode/shim"
 )
 
 //go:generate counterfeiter -o mock/chaincode_stub.go --fake-name ChaincodeStub . chaincodeStub

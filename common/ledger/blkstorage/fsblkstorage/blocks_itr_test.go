@@ -21,9 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/ledger/testutil"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestBlocksItrBlockingNext(t *testing.T) {

@@ -12,12 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/spf13/viper"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/ledger/ledgerconfig"
+	"github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // Test the invocation of a transaction for private data.
@@ -36,7 +37,7 @@ func TestQueriesPrivateData(t *testing.T) {
 
 	defer cleanup()
 
-	url := "github.com/hyperledger/fabric/examples/chaincode/go/map"
+	url := "github.com/tradeline-tech/fabric/examples/chaincode/go/map"
 	cID := &pb.ChaincodeID{Name: "tmap", Path: url, Version: "0"}
 
 	f := "init"

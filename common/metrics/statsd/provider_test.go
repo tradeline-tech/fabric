@@ -12,10 +12,11 @@ import (
 	"strings"
 
 	kitstatsd "github.com/go-kit/kit/metrics/statsd"
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/common/metrics/statsd"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/common/metrics"
+	"github.com/tradeline-tech/fabric/common/metrics/statsd"
 )
 
 var _ = Describe("Provider", func() {

@@ -9,20 +9,21 @@ package multichannel
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	newchannelconfig "github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	ramledger "github.com/hyperledger/fabric/common/ledger/blockledger/ram"
-	mockconfigtx "github.com/hyperledger/fabric/common/mocks/configtx"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/configtxgentest"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter/mock"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	newchannelconfig "github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/crypto"
+	"github.com/tradeline-tech/fabric/common/ledger/blockledger"
+	ramledger "github.com/tradeline-tech/fabric/common/ledger/blockledger/ram"
+	mockconfigtx "github.com/tradeline-tech/fabric/common/mocks/configtx"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/configtxgentest"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/encoder"
+	genesisconfig "github.com/tradeline-tech/fabric/common/tools/configtxgen/localconfig"
+	"github.com/tradeline-tech/fabric/orderer/common/blockcutter/mock"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 type mockBlockWriterSupport struct {

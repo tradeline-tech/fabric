@@ -11,11 +11,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/tools/cryptogen/ca"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/msp"
-	fabricmsp "github.com/hyperledger/fabric/msp"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v2"
+
+	"github.com/tradeline-tech/fabric/common/tools/cryptogen/ca"
+	"github.com/tradeline-tech/fabric/common/tools/cryptogen/msp"
+	fabricmsp "github.com/tradeline-tech/fabric/msp"
 )
 
 const (

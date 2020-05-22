@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package config
 
 import (
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/configtx"
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/msp"
 )
 
 type Resources struct {

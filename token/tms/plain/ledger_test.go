@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package plain_test
 
 import (
-	"github.com/hyperledger/fabric/token/tms/plain"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/token/tms/plain"
 )
 
 var _ = Describe("MemoryLedger", func() {

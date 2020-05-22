@@ -10,9 +10,9 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/comm"
-	ab "github.com/hyperledger/fabric/protos/orderer"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/core/comm"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 // OrdererClient represents a client for communicating with an ordering

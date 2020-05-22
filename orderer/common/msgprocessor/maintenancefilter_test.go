@@ -9,19 +9,20 @@ package msgprocessor
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/capabilities"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/configtxgentest"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/common/tools/configtxlator/update"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/orderer/etcdraft"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/tradeline-tech/fabric/common/capabilities"
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	mockconfig "github.com/tradeline-tech/fabric/common/mocks/config"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/configtxgentest"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/encoder"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/localconfig"
+	"github.com/tradeline-tech/fabric/common/tools/configtxlator/update"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/orderer/etcdraft"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestMaintenanceNoConfig(t *testing.T) {

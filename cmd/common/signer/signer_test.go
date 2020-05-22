@@ -11,9 +11,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/hyperledger/fabric/common/util"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/bccsp/utils"
+	"github.com/tradeline-tech/fabric/common/util"
 )
 
 func TestSigner(t *testing.T) {

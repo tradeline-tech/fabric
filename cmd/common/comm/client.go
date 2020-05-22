@@ -9,11 +9,12 @@ package comm
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/common/crypto/tlsgen"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/comm"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/common/crypto/tlsgen"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/comm"
 )
 
 const defaultTimeout = time.Second * 5

@@ -16,9 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/common/util"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/metrics"
+	"github.com/tradeline-tech/fabric/common/util"
 )
 
 var expectedDatabaseNamePattern = `[a-z][a-z0-9.$_()+-]*`

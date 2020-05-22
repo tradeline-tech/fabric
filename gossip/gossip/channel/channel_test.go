@@ -17,21 +17,22 @@ import (
 	"time"
 
 	gproto "github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	"github.com/hyperledger/fabric/gossip/metrics/mocks"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/metrics/disabled"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/comm"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/gossip/metrics"
+	"github.com/tradeline-tech/fabric/gossip/metrics/mocks"
+	"github.com/tradeline-tech/fabric/gossip/util"
+	proto "github.com/tradeline-tech/fabric/protos/gossip"
 )
 
 type msgMutator func(message *proto.Envelope)

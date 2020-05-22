@@ -15,20 +15,21 @@ import (
 
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/integration/nwo"
-	"github.com/hyperledger/fabric/integration/nwo/commands"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/discovery"
-	pm "github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
 	"github.com/tedsuo/ifrit"
-	yaml "gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v2"
+
+	"github.com/tradeline-tech/fabric/common/cauthdsl"
+	"github.com/tradeline-tech/fabric/integration/nwo"
+	"github.com/tradeline-tech/fabric/integration/nwo/commands"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/discovery"
+	pm "github.com/tradeline-tech/fabric/protos/msp"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var _ = Describe("DiscoveryService", func() {
@@ -102,7 +103,7 @@ var _ = Describe("DiscoveryService", func() {
 		chaincode := nwo.Chaincode{
 			Name:    "mycc",
 			Version: "1.0",
-			Path:    "github.com/hyperledger/fabric/integration/chaincode/simple/cmd",
+			Path:    "github.com/tradeline-tech/fabric/integration/chaincode/simple/cmd",
 			Ctor:    `{"Args":["init","a","100","b","200"]}`,
 			Policy:  `OR (AND ('Org1MSP.member','Org2MSP.member'), AND ('Org1MSP.member','Org3MSP.member'), AND ('Org2MSP.member','Org3MSP.member'))`,
 		}
@@ -157,7 +158,7 @@ var _ = Describe("DiscoveryService", func() {
 		nwo.DeployChaincode(network, "testchannel", orderer, nwo.Chaincode{
 			Name:    "mycc2",
 			Version: "1.0",
-			Path:    "github.com/hyperledger/fabric/integration/chaincode/simple/cmd",
+			Path:    "github.com/tradeline-tech/fabric/integration/chaincode/simple/cmd",
 			Ctor:    `{"Args":["init","a","100","b","200"]}`,
 			Policy:  `AND ('Org1MSP.member', 'Org2MSP.member', 'Org3MSP.member')`,
 		})
@@ -214,7 +215,7 @@ var _ = Describe("DiscoveryService", func() {
 		chaincode := nwo.Chaincode{
 			Name:    "mycc",
 			Version: "1.0",
-			Path:    "github.com/hyperledger/fabric/integration/chaincode/simple/cmd",
+			Path:    "github.com/tradeline-tech/fabric/integration/chaincode/simple/cmd",
 			Ctor:    `{"Args":["init","a","100","b","200"]}`,
 			Policy:  `OR ('Org1MSP.member','Org2MSP.member', 'Org3MSP.member')`,
 		}

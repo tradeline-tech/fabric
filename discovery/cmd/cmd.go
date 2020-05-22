@@ -10,9 +10,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/hyperledger/fabric/cmd/common"
-	"github.com/hyperledger/fabric/discovery/client"
 	"gopkg.in/alecthomas/kingpin.v2"
+
+	"github.com/tradeline-tech/fabric/cmd/common"
+	"github.com/tradeline-tech/fabric/discovery/client"
 )
 
 const (

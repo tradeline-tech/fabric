@@ -22,8 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/pkcs11"
 	"github.com/spf13/viper"
+
+	"github.com/tradeline-tech/fabric/bccsp/pkcs11"
 )
 
 func TestMain(m *testing.M) {

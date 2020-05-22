@@ -11,9 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	logging "github.com/op/go-logging"
+	"github.com/op/go-logging"
 	"github.com/spf13/viper"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 const (

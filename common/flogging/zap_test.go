@@ -12,14 +12,15 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/flogging/fabenc"
-	"github.com/hyperledger/fabric/common/flogging/mock"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 	"google.golang.org/grpc/grpclog"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/flogging/fabenc"
+	"github.com/tradeline-tech/fabric/common/flogging/mock"
 )
 
 func TestFabricLoggerEncoding(t *testing.T) {

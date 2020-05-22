@@ -13,12 +13,13 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/flogging/floggingtest"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mb "github.com/hyperledger/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/flogging/floggingtest"
+	"github.com/tradeline-tech/fabric/msp"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	mb "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 var invalidSignature = []byte("badsigned")

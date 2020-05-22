@@ -9,12 +9,13 @@ package channelconfig_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/configtxgentest"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/configtxgentest"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/encoder"
+	genesisconfig "github.com/tradeline-tech/fabric/common/tools/configtxgen/localconfig"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestWithRealConfigtx(t *testing.T) {

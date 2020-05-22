@@ -9,10 +9,11 @@ package msgprocessor
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/crypto"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 type resources interface {

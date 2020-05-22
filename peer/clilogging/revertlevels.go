@@ -9,8 +9,9 @@ package clilogging
 import (
 	"context"
 
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 func revertLevelsCmd(cf *LoggingCmdFactory) *cobra.Command {

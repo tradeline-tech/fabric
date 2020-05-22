@@ -9,8 +9,9 @@ package metrics
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/metrics/metricsfakes"
 )
 
 func TestMetrics(t *testing.T) {

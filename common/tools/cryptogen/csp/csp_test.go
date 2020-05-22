@@ -13,9 +13,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/csp"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/common/tools/cryptogen/csp"
 )
 
 // mock implementation of bccsp.Key interface

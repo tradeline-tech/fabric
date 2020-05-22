@@ -12,9 +12,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestSignedDataToKey(t *testing.T) {

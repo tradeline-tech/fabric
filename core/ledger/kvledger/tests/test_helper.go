@@ -9,9 +9,10 @@ package tests
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/ledgermgmt"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger/ledgermgmt"
 )
 
 // testhelper embeds (1) a client, (2) a committer and (3) a verifier, all three operate on

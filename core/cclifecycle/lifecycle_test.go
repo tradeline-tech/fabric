@@ -15,19 +15,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/common/flogging/floggingtest"
-	cc "github.com/hyperledger/fabric/core/cclifecycle"
-	"github.com/hyperledger/fabric/core/cclifecycle/mocks"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric/core/ledger/cceventmgmt"
-	"github.com/hyperledger/fabric/protos/utils"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/common/chaincode"
+	"github.com/tradeline-tech/fabric/common/flogging/floggingtest"
+	cc "github.com/tradeline-tech/fabric/core/cclifecycle"
+	"github.com/tradeline-tech/fabric/core/cclifecycle/mocks"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/common/privdata"
+	"github.com/tradeline-tech/fabric/core/ledger/cceventmgmt"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestNewQuery(t *testing.T) {

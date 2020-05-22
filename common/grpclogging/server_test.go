@@ -16,10 +16,6 @@ import (
 	"net"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/grpclogging"
-	"github.com/hyperledger/fabric/common/grpclogging/fakes"
-	"github.com/hyperledger/fabric/common/grpclogging/testpb"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"go.uber.org/zap"
@@ -29,6 +25,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/status"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/grpclogging"
+	"github.com/tradeline-tech/fabric/common/grpclogging/fakes"
+	"github.com/tradeline-tech/fabric/common/grpclogging/testpb"
 )
 
 var _ = Describe("Server", func() {

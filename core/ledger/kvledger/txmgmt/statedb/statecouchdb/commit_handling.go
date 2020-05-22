@@ -8,10 +8,11 @@ package statecouchdb
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/util/couchdb"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/tradeline-tech/fabric/core/ledger/ledgerconfig"
+	"github.com/tradeline-tech/fabric/core/ledger/util/couchdb"
 )
 
 // nsCommittersBuilder implements `batch` interface. Each batch operates on a specific namespace in the updates and

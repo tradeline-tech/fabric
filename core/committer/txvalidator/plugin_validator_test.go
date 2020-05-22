@@ -11,20 +11,21 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/mocks/ledger"
-	"github.com/hyperledger/fabric/core/committer/txvalidator"
-	"github.com/hyperledger/fabric/core/committer/txvalidator/mocks"
-	"github.com/hyperledger/fabric/core/committer/txvalidator/testdata"
-	"github.com/hyperledger/fabric/core/handlers/validation/api"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/capabilities"
-	"github.com/hyperledger/fabric/msp"
-	. "github.com/hyperledger/fabric/msp/mocks"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/common/cauthdsl"
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/mocks/ledger"
+	"github.com/tradeline-tech/fabric/core/committer/txvalidator"
+	"github.com/tradeline-tech/fabric/core/committer/txvalidator/mocks"
+	"github.com/tradeline-tech/fabric/core/committer/txvalidator/testdata"
+	"github.com/tradeline-tech/fabric/core/handlers/validation/api"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/capabilities"
+	"github.com/tradeline-tech/fabric/msp"
+	. "github.com/tradeline-tech/fabric/msp/mocks"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestValidateWithPlugin(t *testing.T) {

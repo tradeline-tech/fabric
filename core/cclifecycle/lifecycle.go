@@ -9,9 +9,10 @@ package cc
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/chaincode"
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 var (

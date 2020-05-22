@@ -13,12 +13,12 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/peer/common/api"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/core/config"
+	"github.com/tradeline-tech/fabric/peer/common/api"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // PeerClient represents a client for communicating with a peer

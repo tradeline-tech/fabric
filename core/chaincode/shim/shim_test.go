@@ -13,15 +13,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	mockpeer "github.com/hyperledger/fabric/common/mocks/peer"
-	"github.com/hyperledger/fabric/common/util"
-	lproto "github.com/hyperledger/fabric/protos/ledger/queryresult"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/op/go-logging"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	mockpeer "github.com/tradeline-tech/fabric/common/mocks/peer"
+	"github.com/tradeline-tech/fabric/common/util"
+	lproto "github.com/tradeline-tech/fabric/protos/ledger/queryresult"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // shimTestCC example simple Chaincode implementation

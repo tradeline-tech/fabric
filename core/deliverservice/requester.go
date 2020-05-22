@@ -19,13 +19,13 @@ package deliverclient
 import (
 	"math"
 
-	"github.com/hyperledger/fabric/common/localmsp"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/tradeline-tech/fabric/common/localmsp"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/core/deliverservice/blocksprovider"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 type blocksRequester struct {

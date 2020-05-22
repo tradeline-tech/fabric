@@ -9,15 +9,16 @@ package builtin
 import (
 	"testing"
 
-	commonerrors "github.com/hyperledger/fabric/common/errors"
-	"github.com/hyperledger/fabric/core/committer/txvalidator"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api"
-	vmocks "github.com/hyperledger/fabric/core/handlers/validation/builtin/mocks"
-	"github.com/hyperledger/fabric/core/handlers/validation/builtin/v12/mocks"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+
+	commonerrors "github.com/tradeline-tech/fabric/common/errors"
+	"github.com/tradeline-tech/fabric/core/committer/txvalidator"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api"
+	vmocks "github.com/tradeline-tech/fabric/core/handlers/validation/builtin/mocks"
+	"github.com/tradeline-tech/fabric/core/handlers/validation/builtin/v12/mocks"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestInit(t *testing.T) {

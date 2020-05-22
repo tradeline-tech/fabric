@@ -9,8 +9,9 @@ package capabilities
 import (
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestSatisfied(t *testing.T) {

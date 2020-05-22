@@ -16,11 +16,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/gossip/msgstore"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/gossip/msgstore"
+	"github.com/tradeline-tech/fabric/gossip/util"
+	proto "github.com/tradeline-tech/fabric/protos/gossip"
 )
 
 const DefAliveTimeInterval = 5 * time.Second

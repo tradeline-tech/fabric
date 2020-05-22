@@ -16,11 +16,11 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/crypto/tlsgen"
-	"github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/common/crypto"
+	"github.com/tradeline-tech/fabric/common/crypto/tlsgen"
+	"github.com/tradeline-tech/fabric/protos/msp"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestX509CertExpiresAt(t *testing.T) {

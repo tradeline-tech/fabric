@@ -7,13 +7,14 @@ package transaction_test
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/token/transaction"
-	"github.com/hyperledger/fabric/token/transaction/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/token/transaction"
+	"github.com/tradeline-tech/fabric/token/transaction/mock"
 )
 
 var _ = Describe("Processor", func() {

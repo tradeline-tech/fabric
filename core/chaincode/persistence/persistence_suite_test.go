@@ -10,9 +10,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/chaincode/persistence"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/persistence"
 )
 
 //go:generate counterfeiter -o mock/ioreadwriter.go -fake-name IOReadWriter . ioReadWriter

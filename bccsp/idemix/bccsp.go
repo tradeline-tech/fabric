@@ -8,13 +8,14 @@ package idemix
 import (
 	"reflect"
 
-	"github.com/hyperledger/fabric/bccsp/idemix/bridge"
+	"github.com/tradeline-tech/fabric/bccsp/idemix/bridge"
 
-	"github.com/hyperledger/fabric/bccsp/idemix/handlers"
+	"github.com/tradeline-tech/fabric/bccsp/idemix/handlers"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/sw"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/sw"
 )
 
 type csp struct {

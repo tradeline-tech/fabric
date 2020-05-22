@@ -8,9 +8,10 @@ package bridge
 import (
 	"github.com/hyperledger/fabric-amcl/amcl"
 	"github.com/hyperledger/fabric-amcl/amcl/FP256BN"
-	"github.com/hyperledger/fabric/bccsp/idemix/handlers"
-	cryptolib "github.com/hyperledger/fabric/idemix"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp/idemix/handlers"
+	cryptolib "github.com/tradeline-tech/fabric/idemix"
 )
 
 // User encapsulates the idemix algorithms to generate user secret keys and pseudonym.

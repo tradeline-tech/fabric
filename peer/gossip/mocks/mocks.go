@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"time"
 
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
-	mspproto "github.com/hyperledger/fabric/protos/msp"
 	"github.com/stretchr/testify/mock"
+	mockpolicies "github.com/tradeline-tech/fabric/common/mocks/policies"
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/protos/common"
+	mspproto "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 type ChannelPolicyManagerGetter struct{}

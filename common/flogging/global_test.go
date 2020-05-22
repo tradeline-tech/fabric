@@ -10,8 +10,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 func TestGlobalReset(t *testing.T) {

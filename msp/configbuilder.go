@@ -14,10 +14,10 @@ import (
 	"path/filepath"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/protos/msp"
 	"gopkg.in/yaml.v2"
 )
 

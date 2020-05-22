@@ -21,10 +21,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/mocks"
-	mocks2 "github.com/hyperledger/fabric/bccsp/sw/mocks"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/mocks"
+	mocks2 "github.com/tradeline-tech/fabric/bccsp/sw/mocks"
 )
 
 func TestKeyGenInvalidInputs(t *testing.T) {

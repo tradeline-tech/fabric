@@ -9,8 +9,9 @@ package channel
 import (
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func signconfigtxCmd(cf *ChannelCmdFactory) *cobra.Command {

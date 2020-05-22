@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package discovery
 
 import (
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	common2 "github.com/hyperledger/fabric/protos/common"
-	discprotos "github.com/hyperledger/fabric/protos/discovery"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/discovery"
+	common2 "github.com/tradeline-tech/fabric/protos/common"
+	discprotos "github.com/tradeline-tech/fabric/protos/discovery"
 )
 
 // AccessControlSupport checks if clients are eligible of being serviced

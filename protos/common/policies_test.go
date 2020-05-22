@@ -9,9 +9,10 @@ package common
 import (
 	"testing"
 
-	proto "github.com/golang/protobuf/proto"
-	common1 "github.com/hyperledger/fabric/protos/msp"
+	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"
+
+	common1 "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 func TestPoliciesEnums(t *testing.T) {

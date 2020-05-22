@@ -23,16 +23,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/mocks/config"
-	mmsp "github.com/hyperledger/fabric/common/mocks/msp"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/mocks/config"
+	mmsp "github.com/tradeline-tech/fabric/common/mocks/msp"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/msp"
+	mspmgmt "github.com/tradeline-tech/fabric/msp/mgmt"
+	"github.com/tradeline-tech/fabric/msp/mgmt/testtools"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func getProposal(channel string) (*peer.Proposal, error) {

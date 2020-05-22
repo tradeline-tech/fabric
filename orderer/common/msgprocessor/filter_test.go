@@ -10,8 +10,9 @@ import (
 	"fmt"
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 var RejectRule = Rule(rejectRule{})

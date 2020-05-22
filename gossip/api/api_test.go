@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hyperledger/fabric/gossip/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/gossip/common"
 )
 
 func TestPeerIdentitySetByOrg(t *testing.T) {

@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package server
 
 import (
-	"github.com/hyperledger/fabric/token/ledger"
-	"github.com/hyperledger/fabric/token/tms/plain"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/token/ledger"
+	"github.com/tradeline-tech/fabric/token/tms/plain"
 )
 
 // Manager implements  token/server/TMSManager interface

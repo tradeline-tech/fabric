@@ -11,10 +11,11 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metrics"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/metrics"
 )
 
 // Configuration defaults

@@ -13,12 +13,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/flogging/fabenc"
 	"github.com/onsi/gomega/gbytes"
 	"go.uber.org/zap"
 	"go.uber.org/zap/buffer"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/flogging/fabenc"
 )
 
 // DefaultFormat is a log encoding format that is mostly compatible with the default

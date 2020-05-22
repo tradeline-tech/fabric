@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/version"
 )
 
 // TestEncodeString tests encoding and decoding a string value using old format

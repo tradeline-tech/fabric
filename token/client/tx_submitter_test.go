@@ -9,16 +9,17 @@ import (
 	"io"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/protos/utils"
-	"github.com/hyperledger/fabric/token/client"
-	"github.com/hyperledger/fabric/token/client/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/protos/utils"
+	"github.com/tradeline-tech/fabric/token/client"
+	"github.com/tradeline-tech/fabric/token/client/mock"
 )
 
 var _ = Describe("TxSubmitter", func() {

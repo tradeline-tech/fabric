@@ -7,11 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package blkstorage
 
 import (
-	"github.com/hyperledger/fabric/common/ledger"
-	l "github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/ledger"
+	l "github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // IndexableAttr represents an indexable attribute

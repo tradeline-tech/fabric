@@ -7,11 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package manager
 
 import (
-	"github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/token/identity"
-	"github.com/hyperledger/fabric/token/tms/plain"
-	"github.com/hyperledger/fabric/token/transaction"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/msp/mgmt"
+	"github.com/tradeline-tech/fabric/token/identity"
+	"github.com/tradeline-tech/fabric/token/tms/plain"
+	"github.com/tradeline-tech/fabric/token/transaction"
 )
 
 //go:generate counterfeiter -o mock/identity_deserializer_manager.go -fake-name DeserializerManager . DeserializerManager

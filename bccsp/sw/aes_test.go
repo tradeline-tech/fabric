@@ -24,10 +24,11 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/mocks"
-	"github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/mocks"
+	"github.com/tradeline-tech/fabric/bccsp/utils"
 )
 
 // TestCBCPKCS7EncryptCBCPKCS7Decrypt encrypts using CBCPKCS7Encrypt and decrypts using CBCPKCS7Decrypt.

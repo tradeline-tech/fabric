@@ -21,16 +21,17 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
+	"github.com/tradeline-tech/fabric/common/metrics/disabled"
 
-	"github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/cceventmgmt"
-	"github.com/hyperledger/fabric/core/ledger/mock"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/configtx/test"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms/golang"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger/cceventmgmt"
+	"github.com/tradeline-tech/fabric/core/ledger/mock"
 )
 
 func TestMain(m *testing.M) {

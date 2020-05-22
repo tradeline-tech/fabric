@@ -9,10 +9,11 @@ package mock
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	proto "github.com/hyperledger/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/gossip/comm"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	proto "github.com/tradeline-tech/fabric/protos/gossip"
 )
 
 func TestMockComm(t *testing.T) {

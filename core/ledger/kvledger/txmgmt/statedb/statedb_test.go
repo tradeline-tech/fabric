@@ -20,8 +20,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/version"
 )
 
 func TestPanic(t *testing.T) {

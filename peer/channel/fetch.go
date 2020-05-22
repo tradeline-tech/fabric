@@ -13,10 +13,11 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/peer/common"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/peer/common"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func fetchCmd(cf *ChannelCmdFactory) *cobra.Command {

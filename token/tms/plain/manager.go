@@ -9,9 +9,10 @@ package plain
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/token/identity"
-	"github.com/hyperledger/fabric/token/transaction"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/token/identity"
+	"github.com/tradeline-tech/fabric/token/transaction"
 )
 
 // Manager is used to access TMS components.

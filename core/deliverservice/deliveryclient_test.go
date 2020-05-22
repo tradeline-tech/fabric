@@ -16,16 +16,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/core/deliverservice/mocks"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	msptesttools "github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/orderer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/core/deliverservice/blocksprovider"
+	"github.com/tradeline-tech/fabric/core/deliverservice/mocks"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	msptesttools "github.com/tradeline-tech/fabric/msp/mgmt/testtools"
+	"github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 //go:generate counterfeiter -o mocks/connection_producer.go -fake-name ConnectionProducer . connectionProducer

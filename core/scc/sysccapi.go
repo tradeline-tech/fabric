@@ -10,15 +10,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	"github.com/hyperledger/fabric/core/container/inproccontroller"
-	"github.com/hyperledger/fabric/core/peer"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/spf13/viper"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/chaincode/shim"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/container/ccintf"
+	"github.com/tradeline-tech/fabric/core/container/inproccontroller"
+	"github.com/tradeline-tech/fabric/core/peer"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 var sysccLogger = flogging.MustGetLogger("sccapi")

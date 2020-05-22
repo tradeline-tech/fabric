@@ -10,10 +10,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/crypto"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	msptesttools "github.com/hyperledger/fabric/msp/mgmt/testtools"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/crypto"
+	mspmgmt "github.com/tradeline-tech/fabric/msp/mgmt"
+	msptesttools "github.com/tradeline-tech/fabric/msp/mgmt/testtools"
 )
 
 func TestMain(m *testing.M) {

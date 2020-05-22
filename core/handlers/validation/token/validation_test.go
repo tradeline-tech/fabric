@@ -9,8 +9,9 @@ package token_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/handlers/validation/token"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/handlers/validation/token"
 )
 
 func TestValidationFactory_New(t *testing.T) {

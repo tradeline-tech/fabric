@@ -10,19 +10,20 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/crypto"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	mockconfigtx "github.com/hyperledger/fabric/common/mocks/configtx"
-	mockcrypto "github.com/hyperledger/fabric/common/mocks/crypto"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/configtxgentest"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/configtx"
+	"github.com/tradeline-tech/fabric/common/crypto"
+	mockconfig "github.com/tradeline-tech/fabric/common/mocks/config"
+	mockconfigtx "github.com/tradeline-tech/fabric/common/mocks/configtx"
+	mockcrypto "github.com/tradeline-tech/fabric/common/mocks/crypto"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/configtxgentest"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/encoder"
+	genesisconfig "github.com/tradeline-tech/fabric/common/tools/configtxgen/localconfig"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var validConfig *cb.Config

@@ -14,11 +14,12 @@
 package main
 
 import (
-	"chaincodes/AutoVendor/directdep"
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"chaincodes/AutoVendor/directdep"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/shim"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // SimpleChaincode example simple Chaincode implementation

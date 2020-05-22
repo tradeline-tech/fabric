@@ -13,19 +13,20 @@ import (
 	"strconv"
 	"testing"
 
-	configtxtest "github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	util2 "github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/history/historydb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/history/historydb/historyleveldb/fakes"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+
+	configtxtest "github.com/tradeline-tech/fabric/common/configtx/test"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/ledger/testutil"
+	util2 "github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/history/historydb"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/history/historydb/historyleveldb/fakes"
+	"github.com/tradeline-tech/fabric/core/ledger/util"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/ledger/queryresult"
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 func TestMain(m *testing.M) {

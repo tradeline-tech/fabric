@@ -14,7 +14,6 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/pkg/errors"
 	"go.etcd.io/etcd/etcdserver/api/snap"
 	"go.etcd.io/etcd/pkg/fileutil"
@@ -22,6 +21,8 @@ import (
 	"go.etcd.io/etcd/raft/raftpb"
 	"go.etcd.io/etcd/wal"
 	"go.etcd.io/etcd/wal/walpb"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 // MaxSnapshotFiles defines max number of etcd/raft snapshot files to retain

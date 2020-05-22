@@ -9,8 +9,9 @@ package chaincode
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/protos/gossip"
 )
 
 func TestToChaincodes(t *testing.T) {

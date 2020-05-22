@@ -9,16 +9,17 @@ package container_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/container"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	"github.com/hyperledger/fabric/core/container/mock"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms/golang"
+	"github.com/tradeline-tech/fabric/core/container"
+	"github.com/tradeline-tech/fabric/core/container/ccintf"
+	"github.com/tradeline-tech/fabric/core/container/mock"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 func TestVM_GetChaincodePackageBytes(t *testing.T) {

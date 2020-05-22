@@ -14,10 +14,11 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/discovery"
+	"github.com/tradeline-tech/fabric/protos/gossip"
+	"github.com/tradeline-tech/fabric/protos/msp"
 )
 
 var (

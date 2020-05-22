@@ -9,8 +9,9 @@ package api
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/common"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/gossip/common"
 )
 
 // MessageCryptoService is the contract between the gossip component and the

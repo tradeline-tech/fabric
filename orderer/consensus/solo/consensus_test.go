@@ -11,13 +11,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	mockblockcutter "github.com/hyperledger/fabric/orderer/mocks/common/blockcutter"
-	mockmultichannel "github.com/hyperledger/fabric/orderer/mocks/common/multichannel"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	mockconfig "github.com/tradeline-tech/fabric/common/mocks/config"
+	mockblockcutter "github.com/tradeline-tech/fabric/orderer/mocks/common/blockcutter"
+	mockmultichannel "github.com/tradeline-tech/fabric/orderer/mocks/common/multichannel"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func init() {

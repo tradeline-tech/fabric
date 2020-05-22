@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hyperledger/fabric/common/metrics"
+	"github.com/tradeline-tech/fabric/common/metrics"
 )
 
 type Namer struct {

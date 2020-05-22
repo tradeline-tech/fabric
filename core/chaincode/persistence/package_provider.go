@@ -9,9 +9,10 @@ package persistence
 import (
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/chaincode"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
 )
 
 // StorePackageProvider is the interface needed to retrieve

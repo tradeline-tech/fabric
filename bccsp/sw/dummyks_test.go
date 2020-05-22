@@ -18,8 +18,9 @@ package sw
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/mocks"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/bccsp/mocks"
 )
 
 func TestNewDummyKeyStore(t *testing.T) {

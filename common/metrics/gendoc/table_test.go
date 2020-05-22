@@ -13,9 +13,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hyperledger/fabric/common/metrics/gendoc"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/common/metrics/gendoc"
 )
 
 var _ = Describe("Table", func() {

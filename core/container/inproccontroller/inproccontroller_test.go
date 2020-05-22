@@ -11,10 +11,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/shim"
+	"github.com/tradeline-tech/fabric/core/container/ccintf"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 type MockShim struct {

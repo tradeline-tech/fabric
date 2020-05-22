@@ -4,12 +4,12 @@ package mocks
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	endorser_test "github.com/hyperledger/fabric/core/endorser"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	endorser_test "github.com/tradeline-tech/fabric/core/endorser"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 type Support struct {

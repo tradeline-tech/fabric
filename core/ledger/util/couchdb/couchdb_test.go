@@ -18,12 +18,13 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	ledgertestutil "github.com/hyperledger/fabric/core/ledger/testutil"
-	"github.com/hyperledger/fabric/integration/runner"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/metrics/disabled"
+	ledgertestutil "github.com/tradeline-tech/fabric/core/ledger/testutil"
+	"github.com/tradeline-tech/fabric/integration/runner"
 )
 
 const badConnectURL = "couchdb:5990"

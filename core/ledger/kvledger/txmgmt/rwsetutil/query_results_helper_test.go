@@ -21,10 +21,11 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	bccspfactory "github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/assert"
+
+	bccspfactory "github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset/kvrwset"
 )
 
 func TestQueryResultHelper_NoResults(t *testing.T) {

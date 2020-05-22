@@ -4,8 +4,8 @@ package mock
 import (
 	sync "sync"
 
-	container "github.com/hyperledger/fabric/core/container"
-	ccintf "github.com/hyperledger/fabric/core/container/ccintf"
+	container "github.com/tradeline-tech/fabric/core/container"
+	ccintf "github.com/tradeline-tech/fabric/core/container/ccintf"
 )
 
 type VMCReq struct {

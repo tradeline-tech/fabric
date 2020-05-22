@@ -27,8 +27,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/bccsp/utils"
 )
 
 type validity struct {

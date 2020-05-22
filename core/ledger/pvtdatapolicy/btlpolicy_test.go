@@ -10,10 +10,11 @@ import (
 	"math"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy/mock"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/common/privdata"
+	"github.com/tradeline-tech/fabric/core/ledger/pvtdatapolicy/mock"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestBTLPolicy(t *testing.T) {

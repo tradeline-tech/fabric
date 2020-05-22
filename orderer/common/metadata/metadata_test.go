@@ -11,9 +11,10 @@ import (
 	"runtime"
 	"testing"
 
-	common "github.com/hyperledger/fabric/common/metadata"
-	"github.com/hyperledger/fabric/orderer/common/metadata"
 	"github.com/stretchr/testify/assert"
+
+	common "github.com/tradeline-tech/fabric/common/metadata"
+	"github.com/tradeline-tech/fabric/orderer/common/metadata"
 )
 
 func TestGetVersionInfo(t *testing.T) {

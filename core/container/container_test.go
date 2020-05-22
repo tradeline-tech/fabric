@@ -7,12 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package container_test
 
 import (
-	"github.com/hyperledger/fabric/core/container"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	"github.com/hyperledger/fabric/core/container/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/core/container"
+	"github.com/tradeline-tech/fabric/core/container/ccintf"
+	"github.com/tradeline-tech/fabric/core/container/mock"
 )
 
 var _ = Describe("Container", func() {

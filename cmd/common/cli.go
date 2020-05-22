@@ -12,9 +12,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hyperledger/fabric/cmd/common/comm"
-	"github.com/hyperledger/fabric/cmd/common/signer"
 	"gopkg.in/alecthomas/kingpin.v2"
+
+	"github.com/tradeline-tech/fabric/cmd/common/comm"
+	"github.com/tradeline-tech/fabric/cmd/common/signer"
 )
 
 const (

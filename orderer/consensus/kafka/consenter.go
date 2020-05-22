@@ -9,13 +9,14 @@ package kafka
 import (
 	"github.com/Shopify/sarama"
 	"github.com/hyperledger/fabric-lib-go/healthz"
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	"github.com/hyperledger/fabric/orderer/consensus/inactive"
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/op/go-logging"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/metrics"
+	"github.com/tradeline-tech/fabric/orderer/common/localconfig"
+	"github.com/tradeline-tech/fabric/orderer/consensus"
+	"github.com/tradeline-tech/fabric/orderer/consensus/inactive"
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 //go:generate counterfeiter -o mock/health_checker.go -fake-name HealthChecker . healthChecker

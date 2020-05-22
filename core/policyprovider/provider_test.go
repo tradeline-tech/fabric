@@ -19,8 +19,9 @@ package policyprovider
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/policy"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/policy"
 )
 
 func TestGetPolicyChecker(t *testing.T) {

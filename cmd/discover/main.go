@@ -9,9 +9,9 @@ package main
 import (
 	"os"
 
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/cmd/common"
-	"github.com/hyperledger/fabric/discovery/cmd"
+	"github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/cmd/common"
+	"github.com/tradeline-tech/fabric/discovery/cmd"
 )
 
 func main() {

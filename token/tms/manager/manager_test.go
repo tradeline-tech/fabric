@@ -7,12 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package manager_test
 
 import (
-	"github.com/hyperledger/fabric/token/identity/mock"
-	"github.com/hyperledger/fabric/token/tms/manager"
-	"github.com/hyperledger/fabric/token/tms/plain"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/token/identity/mock"
+	"github.com/tradeline-tech/fabric/token/tms/manager"
+	"github.com/tradeline-tech/fabric/token/tms/plain"
 )
 
 var _ = Describe("Manager", func() {

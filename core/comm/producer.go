@@ -13,8 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 var logger = flogging.MustGetLogger("ConnProducer")

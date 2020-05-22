@@ -11,20 +11,21 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/capabilities"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/crypto"
-	mockchannelconfig "github.com/hyperledger/fabric/common/mocks/config"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	mockconfigtx "github.com/hyperledger/fabric/common/mocks/configtx"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/configtxgentest"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/tradeline-tech/fabric/common/capabilities"
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/crypto"
+	mockchannelconfig "github.com/tradeline-tech/fabric/common/mocks/config"
+	mockconfig "github.com/tradeline-tech/fabric/common/mocks/config"
+	mockconfigtx "github.com/tradeline-tech/fabric/common/mocks/configtx"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/configtxgentest"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/encoder"
+	genesisconfig "github.com/tradeline-tech/fabric/common/tools/configtxgen/localconfig"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 type mockSystemChannelSupport struct {

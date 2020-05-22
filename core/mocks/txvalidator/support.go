@@ -19,12 +19,12 @@ package support
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	mockpolicies "github.com/tradeline-tech/fabric/common/mocks/policies"
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 type Support struct {

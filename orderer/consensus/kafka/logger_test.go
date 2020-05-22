@@ -13,9 +13,10 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 func TestLoggerInit(t *testing.T) {

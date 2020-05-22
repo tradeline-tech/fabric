@@ -13,17 +13,18 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	commonerrors "github.com/hyperledger/fabric/common/errors"
-	coreUtil "github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/sysccprovider"
-	validation "github.com/hyperledger/fabric/core/handlers/validation/api"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/cauthdsl"
+	commonerrors "github.com/tradeline-tech/fabric/common/errors"
+	coreUtil "github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/common/sysccprovider"
+	validation "github.com/tradeline-tech/fabric/core/handlers/validation/api"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // VsccValidatorImpl is the implementation used to call

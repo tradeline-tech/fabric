@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/mock"
+	"github.com/tradeline-tech/fabric/common/metrics/disabled"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms/golang"
+	"github.com/tradeline-tech/fabric/core/ledger/ledgerconfig"
+	"github.com/tradeline-tech/fabric/core/ledger/mock"
 )
 
 // InitializeTestEnv initializes ledgermgmt for tests

@@ -19,11 +19,11 @@ package fsblkstorage
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/ledger/util/leveldbhelper"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/common/ledger"
+	"github.com/tradeline-tech/fabric/common/ledger/blkstorage"
+	"github.com/tradeline-tech/fabric/common/ledger/util/leveldbhelper"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // fsBlockStore - filesystem based implementation for `BlockStore`

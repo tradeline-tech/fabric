@@ -9,10 +9,11 @@ package channelconfig
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/msp"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	mspprotos "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 const (

@@ -10,11 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
-	"github.com/hyperledger/fabric/common/metrics/statsd/goruntime"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/common/metrics"
+	"github.com/tradeline-tech/fabric/common/metrics/metricsfakes"
+	"github.com/tradeline-tech/fabric/common/metrics/statsd/goruntime"
 )
 
 var _ = Describe("Collector", func() {

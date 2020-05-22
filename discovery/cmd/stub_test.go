@@ -12,12 +12,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/cmd/common"
-	"github.com/hyperledger/fabric/cmd/common/comm"
-	"github.com/hyperledger/fabric/cmd/common/signer"
-	c "github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/discovery/client"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/cmd/common"
+	"github.com/tradeline-tech/fabric/cmd/common/comm"
+	"github.com/tradeline-tech/fabric/cmd/common/signer"
+	c "github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/discovery/client"
 )
 
 func TestClientStub(t *testing.T) {

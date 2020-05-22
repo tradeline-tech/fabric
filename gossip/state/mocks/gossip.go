@@ -7,14 +7,15 @@ SPDX-License-Identifier: Apache-2.0
 package mocks
 
 import (
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/filter"
-	"github.com/hyperledger/fabric/gossip/gossip"
-	proto "github.com/hyperledger/fabric/protos/gossip"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/comm"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/gossip/filter"
+	"github.com/tradeline-tech/fabric/gossip/gossip"
+	proto "github.com/tradeline-tech/fabric/protos/gossip"
 )
 
 type GossipMock struct {

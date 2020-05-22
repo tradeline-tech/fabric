@@ -8,10 +8,11 @@ package cc
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/privdata"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/chaincode"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/common/privdata"
 )
 
 var (

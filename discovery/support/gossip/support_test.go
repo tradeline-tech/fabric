@@ -9,12 +9,12 @@ package gossip_test
 import (
 	"testing"
 
-	gossipSupport "github.com/hyperledger/fabric/discovery/support/gossip"
-	"github.com/hyperledger/fabric/discovery/support/mocks"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
+	gossipSupport "github.com/tradeline-tech/fabric/discovery/support/gossip"
+	"github.com/tradeline-tech/fabric/discovery/support/mocks"
+	"github.com/tradeline-tech/fabric/gossip/common"
+	"github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/protos/gossip"
 )
 
 func TestChannelExists(t *testing.T) {

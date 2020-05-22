@@ -8,8 +8,9 @@ package utils
 
 import (
 	"github.com/golang/protobuf/proto"
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
+
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 // GetChainIDFromBlockBytes returns chain ID given byte array which represents

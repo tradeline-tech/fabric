@@ -12,10 +12,11 @@ import (
 	"io"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/cmd/common"
-	"github.com/hyperledger/fabric/discovery/client"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/cmd/common"
+	"github.com/tradeline-tech/fabric/discovery/client"
+	"github.com/tradeline-tech/fabric/protos/msp"
 )
 
 // NewPeerCmd creates a new PeerCmd with the given Stub and ResponseParser

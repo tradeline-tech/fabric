@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/core/ledger/util"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/tradeline-tech/fabric/core/ledger/util"
 )
 
 //go:generate counterfeiter -o mock/results_iterator.go -fake-name ResultsIterator . ResultsIterator

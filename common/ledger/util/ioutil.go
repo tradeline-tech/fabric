@@ -13,8 +13,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 var logger = flogging.MustGetLogger("kvledger.util")

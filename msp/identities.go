@@ -16,10 +16,10 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/protos/msp"
 	"go.uber.org/zap/zapcore"
 )
 

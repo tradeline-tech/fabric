@@ -12,13 +12,13 @@ import (
 	"strconv"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/flogging"
-	mspconstants "github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	mspconstants "github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/discovery"
+	"github.com/tradeline-tech/fabric/protos/msp"
 )
 
 var logger = flogging.MustGetLogger("discovery.config")

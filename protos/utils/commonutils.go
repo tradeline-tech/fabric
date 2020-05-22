@@ -12,11 +12,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/protos/common"
-	cb "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/crypto"
+	"github.com/tradeline-tech/fabric/protos/common"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // MarshalOrPanic serializes a protobuf message and panics if this

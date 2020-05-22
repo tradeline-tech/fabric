@@ -15,13 +15,14 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	"github.com/hyperledger/fabric/orderer/common/msgprocessor"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/orderer/common/localconfig"
+	"github.com/tradeline-tech/fabric/orderer/common/msgprocessor"
+	"github.com/tradeline-tech/fabric/orderer/consensus"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // Used for capturing metrics -- see processMessagesToBlocks

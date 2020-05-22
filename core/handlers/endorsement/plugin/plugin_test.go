@@ -10,12 +10,13 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/endorser/mocks"
-	mocks2 "github.com/hyperledger/fabric/core/handlers/endorsement/builtin/mocks"
-	plgn "github.com/hyperledger/fabric/core/handlers/endorsement/plugin"
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/core/endorser/mocks"
+	mocks2 "github.com/tradeline-tech/fabric/core/handlers/endorsement/builtin/mocks"
+	plgn "github.com/tradeline-tech/fabric/core/handlers/endorsement/plugin"
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 func TestEndorsementPlugin(t *testing.T) {

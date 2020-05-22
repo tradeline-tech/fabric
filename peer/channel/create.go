@@ -22,16 +22,17 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/configtx"
-	localsigner "github.com/hyperledger/fabric/common/localmsp"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/peer/common"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/common/configtx"
+	localsigner "github.com/tradeline-tech/fabric/common/localmsp"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/encoder"
+	genesisconfig "github.com/tradeline-tech/fabric/common/tools/configtxgen/localconfig"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/peer/common"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 //ConfigTxFileNotFound channel create configuration tx file not found

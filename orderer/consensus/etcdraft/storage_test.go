@@ -15,7 +15,6 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.etcd.io/etcd/pkg/fileutil"
@@ -23,6 +22,8 @@ import (
 	"go.etcd.io/etcd/raft/raftpb"
 	"go.etcd.io/etcd/wal"
 	"go.uber.org/zap"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 var (

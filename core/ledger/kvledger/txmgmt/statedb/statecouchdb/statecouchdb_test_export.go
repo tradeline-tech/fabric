@@ -8,9 +8,9 @@ package statecouchdb
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/common/metrics/disabled"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
 )
 
 // TestVDBEnv provides a couch db backed versioned db for testing

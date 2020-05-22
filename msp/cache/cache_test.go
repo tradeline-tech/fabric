@@ -10,12 +10,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/msp/mocks"
-	msp2 "github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/msp/mocks"
+	msp2 "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 func TestNewCacheMsp(t *testing.T) {

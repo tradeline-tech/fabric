@@ -26,9 +26,10 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/chaincode/shim/ext/attrmgr"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/shim/ext/attrmgr"
+	"github.com/tradeline-tech/fabric/protos/msp"
 )
 
 // GetID returns the ID associated with the invoking identity.  This ID

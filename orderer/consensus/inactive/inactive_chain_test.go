@@ -9,9 +9,10 @@ package inactive_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/orderer/consensus/inactive"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/orderer/consensus/inactive"
 )
 
 func TestInactiveChain(t *testing.T) {

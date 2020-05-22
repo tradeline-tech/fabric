@@ -6,13 +6,14 @@ SPDX-License-Identifier: Apache-2.0
 package handlers_test
 
 import (
-	"github.com/hyperledger/fabric/bccsp/idemix/handlers"
+	"github.com/tradeline-tech/fabric/bccsp/idemix/handlers"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/idemix/handlers/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/idemix/handlers/mock"
 )
 
 var _ = Describe("Issuer", func() {

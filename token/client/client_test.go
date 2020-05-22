@@ -7,13 +7,14 @@ SPDX-License-Identifier: Apache-2.0
 package client_test
 
 import (
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/token/client"
-	"github.com/hyperledger/fabric/token/client/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/token/client"
+	"github.com/tradeline-tech/fabric/token/client/mock"
 )
 
 var _ = Describe("TokenClient", func() {

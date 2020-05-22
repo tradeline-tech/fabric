@@ -14,12 +14,13 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/hyperledger/fabric/common/tools/cryptogen/ca"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/csp"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/metadata"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/msp"
 	"gopkg.in/alecthomas/kingpin.v2"
 	"gopkg.in/yaml.v2"
+
+	"github.com/tradeline-tech/fabric/common/tools/cryptogen/ca"
+	"github.com/tradeline-tech/fabric/common/tools/cryptogen/csp"
+	"github.com/tradeline-tech/fabric/common/tools/cryptogen/metadata"
+	"github.com/tradeline-tech/fabric/common/tools/cryptogen/msp"
 )
 
 const (

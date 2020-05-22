@@ -14,9 +14,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	m "github.com/hyperledger/fabric/protos/msp"
 	errors "github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/bccsp"
+	m "github.com/tradeline-tech/fabric/protos/msp"
 )
 
 func (msp *bccspmsp) getCertifiersIdentifier(certRaw []byte) ([]byte, error) {

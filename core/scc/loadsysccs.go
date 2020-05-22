@@ -12,9 +12,10 @@ import (
 	"plugin"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/viperutil"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/viperutil"
+	"github.com/tradeline-tech/fabric/core/chaincode/shim"
 )
 
 const (

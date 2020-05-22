@@ -9,14 +9,14 @@ package acl_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/discovery/support/acl"
-	"github.com/hyperledger/fabric/discovery/support/mocks"
-	gmocks "github.com/hyperledger/fabric/peer/gossip/mocks"
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/discovery/support/acl"
+	"github.com/tradeline-tech/fabric/discovery/support/mocks"
+	gmocks "github.com/tradeline-tech/fabric/peer/gossip/mocks"
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestGetChannelConfigFunc(t *testing.T) {

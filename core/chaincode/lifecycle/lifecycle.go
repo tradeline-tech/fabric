@@ -9,8 +9,9 @@ package lifecycle
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/chaincode/persistence"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/persistence"
 )
 
 // ChaincodeStore provides a way to persist chaincodes

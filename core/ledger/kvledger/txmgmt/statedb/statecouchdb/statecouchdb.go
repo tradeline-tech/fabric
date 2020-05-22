@@ -12,14 +12,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/util/couchdb"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/metrics"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/tradeline-tech/fabric/core/ledger/ledgerconfig"
+	"github.com/tradeline-tech/fabric/core/ledger/util/couchdb"
 )
 
 var logger = flogging.MustGetLogger("statecouchdb")

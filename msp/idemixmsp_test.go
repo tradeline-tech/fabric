@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/idemix"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/idemix"
+	"github.com/tradeline-tech/fabric/protos/msp"
 )
 
 func setup(configPath string, ID string) (MSP, error) {

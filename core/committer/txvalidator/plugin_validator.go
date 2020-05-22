@@ -10,16 +10,17 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	ledger2 "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/handlers/validation/api"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/capabilities"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/identities"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/state"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/cauthdsl"
+	ledger2 "github.com/tradeline-tech/fabric/common/ledger"
+	"github.com/tradeline-tech/fabric/core/handlers/validation/api"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/capabilities"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/identities"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/state"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 // MapBasedPluginMapper maps plugin names to their corresponding factories

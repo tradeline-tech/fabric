@@ -9,8 +9,8 @@ package common_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/peer/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/peer/common"
 )
 
 func TestGetConfig(t *testing.T) {

@@ -12,9 +12,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/peer/common"
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/peer/common"
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestSignConfigtx(t *testing.T) {

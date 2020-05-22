@@ -10,9 +10,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/core/chaincode/shim/ext/statebased"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/cauthdsl"
+	"github.com/tradeline-tech/fabric/core/chaincode/shim/ext/statebased"
 )
 
 func TestAddOrg(t *testing.T) {

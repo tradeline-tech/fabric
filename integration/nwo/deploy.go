@@ -12,12 +12,13 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/integration/nwo/commands"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
+
+	"github.com/tradeline-tech/fabric/integration/nwo/commands"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 type Chaincode struct {

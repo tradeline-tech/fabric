@@ -7,8 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package manager
 
 import (
-	"github.com/hyperledger/fabric/token/identity"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/token/identity"
 )
 
 // AllIssuingValidator allows all members of a channel to issue new tokens.

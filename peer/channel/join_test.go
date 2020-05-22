@@ -23,10 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/peer/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/peer/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 func TestMissingBlockFile(t *testing.T) {

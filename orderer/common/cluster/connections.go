@@ -12,8 +12,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hyperledger/fabric/common/metrics"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/common/metrics"
 	"google.golang.org/grpc"
 )
 

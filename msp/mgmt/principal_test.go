@@ -20,8 +20,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/protos/msp"
 )
 
 func TestNewLocalMSPPrincipalGetter(t *testing.T) {

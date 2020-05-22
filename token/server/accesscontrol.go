@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package server
 
 import (
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/token"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/token"
 )
 
 //go:generate counterfeiter -o mock/acl_provider.go -fake-name ACLProvider . ACLProvider

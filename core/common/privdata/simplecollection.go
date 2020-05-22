@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package privdata
 
 import (
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 // SimpleCollection implements a collection with static properties

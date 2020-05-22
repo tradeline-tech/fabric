@@ -15,13 +15,14 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/msp"
-	proto_utils "github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp/utils"
+	"github.com/tradeline-tech/fabric/common/crypto"
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/msp"
+	proto_utils "github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // Config holds the configuration for

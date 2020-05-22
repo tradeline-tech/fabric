@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"testing"
 
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/common/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+	mockpolicies "github.com/tradeline-tech/fabric/common/mocks/policies"
+	"github.com/tradeline-tech/fabric/common/policies"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 var defaultChain = "default.chain.id"

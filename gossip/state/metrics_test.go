@@ -10,15 +10,16 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	gmetricsmocks "github.com/hyperledger/fabric/gossip/metrics/mocks"
-	"github.com/hyperledger/fabric/gossip/state/mocks"
-	pcomm "github.com/hyperledger/fabric/protos/common"
-	proto "github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/gossip/metrics"
+	gmetricsmocks "github.com/tradeline-tech/fabric/gossip/metrics/mocks"
+	"github.com/tradeline-tech/fabric/gossip/state/mocks"
+	pcomm "github.com/tradeline-tech/fabric/protos/common"
+	proto "github.com/tradeline-tech/fabric/protos/gossip"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestMetrics(t *testing.T) {

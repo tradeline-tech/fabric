@@ -11,28 +11,29 @@ import (
 	"regexp"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/aclmgmt"
-	"github.com/hyperledger/fabric/core/aclmgmt/resources"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/ccmetadata"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric/core/common/sysccprovider"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/cceventmgmt"
-	"github.com/hyperledger/fabric/core/peer"
-	"github.com/hyperledger/fabric/core/policy"
-	"github.com/hyperledger/fabric/core/policyprovider"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/protos/common"
-	mb "github.com/hyperledger/fabric/protos/msp"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/cauthdsl"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/aclmgmt"
+	"github.com/tradeline-tech/fabric/core/aclmgmt/resources"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms/ccmetadata"
+	"github.com/tradeline-tech/fabric/core/chaincode/shim"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/common/privdata"
+	"github.com/tradeline-tech/fabric/core/common/sysccprovider"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger/cceventmgmt"
+	"github.com/tradeline-tech/fabric/core/peer"
+	"github.com/tradeline-tech/fabric/core/policy"
+	"github.com/tradeline-tech/fabric/core/policyprovider"
+	"github.com/tradeline-tech/fabric/msp"
+	"github.com/tradeline-tech/fabric/msp/mgmt"
+	"github.com/tradeline-tech/fabric/protos/common"
+	mb "github.com/tradeline-tech/fabric/protos/msp"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 //The life cycle system chaincode manages chaincodes deployed
@@ -155,7 +156,7 @@ func New(sccp sysccprovider.SystemChaincodeProvider, ACLProvider aclmgmt.ACLProv
 }
 
 func (lscc *LifeCycleSysCC) Name() string              { return "lscc" }
-func (lscc *LifeCycleSysCC) Path() string              { return "github.com/hyperledger/fabric/core/scc/lscc" }
+func (lscc *LifeCycleSysCC) Path() string              { return "github.com/tradeline-tech/fabric/core/scc/lscc" }
 func (lscc *LifeCycleSysCC) InitArgs() [][]byte        { return nil }
 func (lscc *LifeCycleSysCC) Chaincode() shim.Chaincode { return lscc }
 func (lscc *LifeCycleSysCC) InvokableExternal() bool   { return true }

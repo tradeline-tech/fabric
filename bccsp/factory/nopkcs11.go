@@ -9,8 +9,9 @@ SPDX-License-Identifier: Apache-2.0
 package factory
 
 import (
-	"github.com/hyperledger/fabric/bccsp"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp"
 )
 
 const pkcs11Enabled = false

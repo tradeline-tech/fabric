@@ -7,8 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package metrics
 
 import (
-	"github.com/hyperledger/fabric/common/metrics"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/metrics"
 )
 
 var (

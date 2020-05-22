@@ -11,11 +11,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/comm/mock"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/core/comm/mock"
 )
 
 //go:generate counterfeiter -o mock/semaphore.go -fake-name Semaphore . Semaphore

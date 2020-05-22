@@ -7,13 +7,14 @@ SPDX-License-Identifier: Apache-2.0
 package privdata
 
 import (
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/transientstore"
-	"github.com/hyperledger/fabric/gossip/privdata/common"
-	"github.com/hyperledger/fabric/gossip/util"
-	gossip2 "github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/transientstore"
+	"github.com/tradeline-tech/fabric/gossip/privdata/common"
+	"github.com/tradeline-tech/fabric/gossip/util"
+	gossip2 "github.com/tradeline-tech/fabric/protos/gossip"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset"
 )
 
 // StorageDataRetriever defines an API to retrieve private date from the storage

@@ -15,17 +15,18 @@ import (
 	"reflect"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/tools/configtxlator/metadata"
-	"github.com/hyperledger/fabric/common/tools/configtxlator/rest"
-	"github.com/hyperledger/fabric/common/tools/configtxlator/update"
-	"github.com/hyperledger/fabric/common/tools/protolator"
-	_ "github.com/hyperledger/fabric/protos/common"
-	cb "github.com/hyperledger/fabric/protos/common" // Import these to register the proto types
-	_ "github.com/hyperledger/fabric/protos/msp"
-	_ "github.com/hyperledger/fabric/protos/orderer"
-	_ "github.com/hyperledger/fabric/protos/orderer/etcdraft"
-	_ "github.com/hyperledger/fabric/protos/peer"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/tools/configtxlator/metadata"
+	"github.com/tradeline-tech/fabric/common/tools/configtxlator/rest"
+	"github.com/tradeline-tech/fabric/common/tools/configtxlator/update"
+	"github.com/tradeline-tech/fabric/common/tools/protolator"
+	_ "github.com/tradeline-tech/fabric/protos/common"
+	cb "github.com/tradeline-tech/fabric/protos/common" // Import these to register the proto types
+	_ "github.com/tradeline-tech/fabric/protos/msp"
+	_ "github.com/tradeline-tech/fabric/protos/orderer"
+	_ "github.com/tradeline-tech/fabric/protos/orderer/etcdraft"
+	_ "github.com/tradeline-tech/fabric/protos/peer"
 
 	"github.com/gorilla/handlers"
 	"github.com/pkg/errors"

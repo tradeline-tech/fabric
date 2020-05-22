@@ -9,11 +9,12 @@ package plain_test
 import (
 	"io"
 
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/token/tms"
-	"github.com/hyperledger/fabric/token/tms/plain"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/token/tms"
+	"github.com/tradeline-tech/fabric/token/tms/plain"
 )
 
 var _ = Describe("MemoryPool", func() {

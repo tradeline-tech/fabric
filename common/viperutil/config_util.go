@@ -19,12 +19,13 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	version "github.com/hashicorp/go-version"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/hashicorp/go-version"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
+
+	"github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 var logger = flogging.MustGetLogger("viperutil")

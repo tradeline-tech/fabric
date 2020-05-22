@@ -9,10 +9,11 @@ package diag_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/diag"
-	"github.com/hyperledger/fabric/common/flogging/floggingtest"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
+
+	"github.com/tradeline-tech/fabric/common/diag"
+	"github.com/tradeline-tech/fabric/common/flogging/floggingtest"
 )
 
 func TestCaptureGoRoutines(t *testing.T) {
@@ -21,7 +22,7 @@ func TestCaptureGoRoutines(t *testing.T) {
 	gt.Expect(err).NotTo(HaveOccurred())
 
 	gt.Expect(output).To(MatchRegexp(`goroutine \d+ \[running\]:`))
-	gt.Expect(output).To(ContainSubstring("github.com/hyperledger/fabric/common/diag.CaptureGoRoutines"))
+	gt.Expect(output).To(ContainSubstring("github.com/tradeline-tech/fabric/common/diag.CaptureGoRoutines"))
 }
 
 func TestLogGoRoutines(t *testing.T) {

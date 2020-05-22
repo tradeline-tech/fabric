@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/tradeline-tech/fabric/common/ledger/blockledger"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 type ledgerTestable interface {

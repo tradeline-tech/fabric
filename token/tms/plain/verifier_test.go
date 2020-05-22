@@ -13,13 +13,14 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/ledger/customtx"
-	"github.com/hyperledger/fabric/protos/token"
-	mockid "github.com/hyperledger/fabric/token/identity/mock"
-	mockledger "github.com/hyperledger/fabric/token/ledger/mock"
-	"github.com/hyperledger/fabric/token/tms/plain"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/ledger/customtx"
+	"github.com/tradeline-tech/fabric/protos/token"
+	mockid "github.com/tradeline-tech/fabric/token/identity/mock"
+	mockledger "github.com/tradeline-tech/fabric/token/ledger/mock"
+	"github.com/tradeline-tech/fabric/token/tms/plain"
 )
 
 var _ = Describe("Verifier", func() {

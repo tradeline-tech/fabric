@@ -11,9 +11,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/common/metrics/disabled"
+	"github.com/tradeline-tech/fabric/common/metrics/metricsfakes"
 )
 
 func TestAPIProcessTimeMetric(t *testing.T) {

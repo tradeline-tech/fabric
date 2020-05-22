@@ -19,8 +19,9 @@ package update
 import (
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestNoUpdate(t *testing.T) {

@@ -14,14 +14,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/util"
-	"github.com/hyperledger/fabric/protos/orderer"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/core/deliverservice/blocksprovider"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	"github.com/tradeline-tech/fabric/gossip/util"
+	"github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 var logger = flogging.MustGetLogger("deliveryClient")

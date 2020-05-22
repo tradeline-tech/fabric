@@ -9,9 +9,9 @@ package configtx
 import (
 	"strings"
 
-	"github.com/hyperledger/fabric/common/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/common/policies"
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 func (vi *ValidatorImpl) verifyReadSet(readSet map[string]comparable) error {

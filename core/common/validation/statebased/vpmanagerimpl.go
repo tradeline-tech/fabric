@@ -10,11 +10,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/handlers/validation/api/state"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/handlers/validation/api/state"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 var logger = flogging.MustGetLogger("vscc")

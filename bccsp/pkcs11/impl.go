@@ -12,11 +12,12 @@ import (
 	"crypto/x509"
 	"os"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/miekg/pkcs11"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/bccsp/sw"
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 var (

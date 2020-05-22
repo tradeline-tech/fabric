@@ -15,10 +15,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging/fabenc"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/tradeline-tech/fabric/common/flogging/fabenc"
 )
 
 func TestParseFormat(t *testing.T) {

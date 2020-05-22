@@ -22,9 +22,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/mocks"
-	"github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/bccsp/mocks"
+	"github.com/tradeline-tech/fabric/bccsp/utils"
 )
 
 func TestInitFailures(t *testing.T) {

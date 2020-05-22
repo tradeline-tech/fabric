@@ -8,9 +8,10 @@ package container_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/container"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/container"
 )
 
 //go:generate counterfeiter -o mock/vm_provider.go --fake-name VMProvider . vmProvider

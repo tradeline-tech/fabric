@@ -24,10 +24,11 @@ import (
 	"reflect"
 	"testing"
 
-	mocks2 "github.com/hyperledger/fabric/bccsp/mocks"
-	"github.com/hyperledger/fabric/bccsp/sw/mocks"
-	"github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/stretchr/testify/assert"
+
+	mocks2 "github.com/tradeline-tech/fabric/bccsp/mocks"
+	"github.com/tradeline-tech/fabric/bccsp/sw/mocks"
+	"github.com/tradeline-tech/fabric/bccsp/utils"
 )
 
 func TestKeyImport(t *testing.T) {

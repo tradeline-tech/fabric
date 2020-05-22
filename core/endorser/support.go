@@ -9,21 +9,22 @@ package endorser
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/core/aclmgmt"
-	"github.com/hyperledger/fabric/core/aclmgmt/resources"
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/handlers/decoration"
-	. "github.com/hyperledger/fabric/core/handlers/endorsement/api/identities"
-	"github.com/hyperledger/fabric/core/handlers/library"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/peer"
-	"github.com/hyperledger/fabric/core/scc"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/crypto"
+	"github.com/tradeline-tech/fabric/core/aclmgmt"
+	"github.com/tradeline-tech/fabric/core/aclmgmt/resources"
+	"github.com/tradeline-tech/fabric/core/chaincode"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/handlers/decoration"
+	. "github.com/tradeline-tech/fabric/core/handlers/endorsement/api/identities"
+	"github.com/tradeline-tech/fabric/core/handlers/library"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/peer"
+	"github.com/tradeline-tech/fabric/core/scc"
+	"github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 // SupportImpl provides an implementation of the endorser.Support interface

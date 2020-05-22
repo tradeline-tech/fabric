@@ -10,17 +10,18 @@ import (
 	"fmt"
 	"reflect"
 
-	commonerrors "github.com/hyperledger/fabric/common/errors"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/handlers/validation/api"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/capabilities"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/identities"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/policies"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/state"
-	"github.com/hyperledger/fabric/core/handlers/validation/builtin/v12"
-	"github.com/hyperledger/fabric/core/handlers/validation/builtin/v13"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
+
+	commonerrors "github.com/tradeline-tech/fabric/common/errors"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/handlers/validation/api"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/capabilities"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/identities"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/policies"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/state"
+	"github.com/tradeline-tech/fabric/core/handlers/validation/builtin/v12"
+	"github.com/tradeline-tech/fabric/core/handlers/validation/builtin/v13"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 var logger = flogging.MustGetLogger("vscc")

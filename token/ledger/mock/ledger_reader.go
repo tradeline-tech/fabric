@@ -4,8 +4,8 @@ package mock
 import (
 	"sync"
 
-	ledgercommon "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/token/ledger"
+	ledgercommon "github.com/tradeline-tech/fabric/common/ledger"
+	"github.com/tradeline-tech/fabric/token/ledger"
 )
 
 type LedgerReader struct {

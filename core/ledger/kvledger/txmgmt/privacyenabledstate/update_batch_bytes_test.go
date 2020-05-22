@@ -8,9 +8,10 @@ package privacyenabledstate
 import (
 	"testing"
 
-	proto "github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/version"
 )
 
 func TestUpdateBatchBytesBuilderOnlyPublicWrites(t *testing.T) {

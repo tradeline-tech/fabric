@@ -10,14 +10,15 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/handlers/validation/api"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/capabilities"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/identities"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/policies"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/state"
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/handlers/validation/api"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/capabilities"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/identities"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/policies"
+	. "github.com/tradeline-tech/fabric/core/handlers/validation/api/state"
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 // SampleValidationPlugin is an example for a validation plugin,

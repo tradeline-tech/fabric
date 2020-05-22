@@ -11,10 +11,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/common/util"
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/bccsp"
+	"github.com/tradeline-tech/fabric/common/util"
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestInterface(t *testing.T) {

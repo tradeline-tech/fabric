@@ -12,12 +12,13 @@ import (
 	"syscall"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/hyperledger/fabric/integration/nwo"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/tedsuo/ifrit"
 	"github.com/tedsuo/ifrit/ginkgomon"
+
+	"github.com/tradeline-tech/fabric/integration/nwo"
 )
 
 var _ = Describe("SignalHandling", func() {

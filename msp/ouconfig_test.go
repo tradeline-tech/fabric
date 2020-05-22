@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/sw"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/bccsp/sw"
 )
 
 func TestBadConfigOU(t *testing.T) {

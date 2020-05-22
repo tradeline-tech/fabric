@@ -10,10 +10,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter/mock"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/orderer/common/blockcutter"
+	"github.com/tradeline-tech/fabric/orderer/common/blockcutter/mock"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	ab "github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 var _ = Describe("Blockcutter", func() {

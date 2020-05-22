@@ -13,11 +13,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/common/metadata"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/common/metadata"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms"
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms/mock"
 )
 
 var _ = Describe("Platforms", func() {

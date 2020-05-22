@@ -8,8 +8,9 @@ package channelconfig
 import (
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestConsortiums(t *testing.T) {

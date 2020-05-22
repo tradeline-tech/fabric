@@ -22,8 +22,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/gossip/common"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/gossip/common"
 )
 
 func TestToGossipMessageNilEnvelope(t *testing.T) {

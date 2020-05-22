@@ -9,9 +9,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
+	"github.com/tradeline-tech/fabric/common/flogging"
 )
 
 var (

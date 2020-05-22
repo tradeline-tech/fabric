@@ -7,11 +7,13 @@ package bridge
 
 import (
 	"github.com/hyperledger/fabric-amcl/amcl"
-	"github.com/hyperledger/fabric/bccsp/idemix/handlers"
+
+	"github.com/tradeline-tech/fabric/bccsp/idemix/handlers"
 
 	"github.com/golang/protobuf/proto"
-	cryptolib "github.com/hyperledger/fabric/idemix"
 	"github.com/pkg/errors"
+
+	cryptolib "github.com/tradeline-tech/fabric/idemix"
 )
 
 // NymSignatureScheme encapsulates the idemix algorithms to sign and verify using an idemix

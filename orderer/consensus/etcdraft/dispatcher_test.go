@@ -9,12 +9,13 @@ package etcdraft_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/orderer/consensus/etcdraft"
-	"github.com/hyperledger/fabric/orderer/consensus/etcdraft/mocks"
-	"github.com/hyperledger/fabric/protos/orderer"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/orderer/consensus/etcdraft"
+	"github.com/tradeline-tech/fabric/orderer/consensus/etcdraft/mocks"
+	"github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 func TestDispatchConsensus(t *testing.T) {

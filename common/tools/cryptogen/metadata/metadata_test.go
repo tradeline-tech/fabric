@@ -11,8 +11,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/tools/cryptogen/metadata"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/tools/cryptogen/metadata"
 )
 
 func TestGetVersionInfo(t *testing.T) {

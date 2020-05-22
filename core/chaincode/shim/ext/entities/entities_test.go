@@ -10,9 +10,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/bccsp/mocks"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/bccsp/factory"
+	"github.com/tradeline-tech/fabric/bccsp/mocks"
 )
 
 func TestEntitiesBad(t *testing.T) {

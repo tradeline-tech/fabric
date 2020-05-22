@@ -22,16 +22,17 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
-	logging "github.com/op/go-logging"
+	"github.com/op/go-logging"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/bccsp/factory"
+	commonledger "github.com/tradeline-tech/fabric/common/ledger"
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/protos/ledger/queryresult"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // Logger for the shim package.

@@ -9,10 +9,11 @@ package inquire
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/protos/msp"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestToPrincipalSet(t *testing.T) {

@@ -9,8 +9,9 @@ package accesscontrol
 import (
 	"fmt"
 
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"google.golang.org/grpc"
+
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 type interceptor struct {

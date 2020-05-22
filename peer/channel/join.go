@@ -22,12 +22,13 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/core/scc/cscc"
-	"github.com/hyperledger/fabric/peer/common"
-	pcommon "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	putils "github.com/hyperledger/fabric/protos/utils"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/core/scc/cscc"
+	"github.com/tradeline-tech/fabric/peer/common"
+	pcommon "github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	putils "github.com/tradeline-tech/fabric/protos/utils"
 )
 
 const commandDescription = "Joins the peer to a channel."

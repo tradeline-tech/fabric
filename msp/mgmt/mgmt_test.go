@@ -9,10 +9,11 @@ package mgmt
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/msp"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/config/configtest"
+	"github.com/tradeline-tech/fabric/msp"
 )
 
 func TestGetManagerForChains(t *testing.T) {

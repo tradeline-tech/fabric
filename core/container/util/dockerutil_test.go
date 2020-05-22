@@ -10,9 +10,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metadata"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/metadata"
 )
 
 func TestUtil_DockerfileTemplateParser(t *testing.T) {

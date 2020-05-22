@@ -11,11 +11,12 @@ import (
 	"sort"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mb "github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/cauthdsl"
+	cb "github.com/tradeline-tech/fabric/protos/common"
+	mb "github.com/tradeline-tech/fabric/protos/msp"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // stateEP implements the KeyEndorsementPolicy

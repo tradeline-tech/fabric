@@ -10,7 +10,8 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/common"
+
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 func init() {

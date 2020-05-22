@@ -9,8 +9,8 @@ package storageutil
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset/kvrwset"
 )
 
 func TestSerializeDeSerialize(t *testing.T) {

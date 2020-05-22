@@ -13,17 +13,18 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	"github.com/hyperledger/fabric/protos/token"
-	mock2 "github.com/hyperledger/fabric/token/ledger/mock"
-	"github.com/hyperledger/fabric/token/server"
-	"github.com/hyperledger/fabric/token/server/mock"
-	"github.com/hyperledger/fabric/token/tms/plain"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/protos/ledger/queryresult"
+	"github.com/tradeline-tech/fabric/protos/token"
+	mock2 "github.com/tradeline-tech/fabric/token/ledger/mock"
+	"github.com/tradeline-tech/fabric/token/server"
+	"github.com/tradeline-tech/fabric/token/server/mock"
+	"github.com/tradeline-tech/fabric/token/tms/plain"
 )
 
 func clock() time.Time {

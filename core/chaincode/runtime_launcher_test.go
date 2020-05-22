@@ -9,14 +9,15 @@ package chaincode_test
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/core/chaincode/fake"
-	"github.com/hyperledger/fabric/core/chaincode/mock"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/metrics/metricsfakes"
+	"github.com/tradeline-tech/fabric/core/chaincode"
+	"github.com/tradeline-tech/fabric/core/chaincode/fake"
+	"github.com/tradeline-tech/fabric/core/chaincode/mock"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
 )
 
 var _ = Describe("RuntimeLauncher", func() {

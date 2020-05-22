@@ -7,14 +7,15 @@ SPDX-License-Identifier: Apache-2.0
 package endorser
 
 import (
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/endorser"
-	"github.com/hyperledger/fabric/core/ledger"
-	mc "github.com/hyperledger/fabric/core/mocks/ccprovider"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/core/common/ccprovider"
+	"github.com/tradeline-tech/fabric/core/endorser"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	mc "github.com/tradeline-tech/fabric/core/mocks/ccprovider"
+	"github.com/tradeline-tech/fabric/protos/common"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 type MockSupport struct {

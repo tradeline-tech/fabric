@@ -9,20 +9,21 @@ package multichannel
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/deliver/mock"
-	"github.com/hyperledger/fabric/common/ledger/blockledger/mocks"
-	"github.com/hyperledger/fabric/common/mocks/config"
-	mockconfigtx "github.com/hyperledger/fabric/common/mocks/configtx"
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/configtxgentest"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/channelconfig"
+	"github.com/tradeline-tech/fabric/common/deliver/mock"
+	"github.com/tradeline-tech/fabric/common/ledger/blockledger/mocks"
+	"github.com/tradeline-tech/fabric/common/mocks/config"
+	mockconfigtx "github.com/tradeline-tech/fabric/common/mocks/configtx"
+	mockpolicies "github.com/tradeline-tech/fabric/common/mocks/policies"
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/configtxgentest"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/encoder"
+	"github.com/tradeline-tech/fabric/common/tools/configtxgen/localconfig"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 func TestChainSupportBlock(t *testing.T) {

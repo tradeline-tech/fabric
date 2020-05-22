@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/token/server"
+	"github.com/tradeline-tech/fabric/token/server"
 )
 
 type CapabilityChecker struct {

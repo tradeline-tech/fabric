@@ -14,8 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
 	"github.com/spf13/viper"
+
+	"github.com/tradeline-tech/fabric/core/config/configtest"
 )
 
 // TestRandomNumberGenerator a random number generator for testing

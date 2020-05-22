@@ -10,8 +10,9 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/hyperledger/fabric/common/metadata"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/common/metadata"
 )
 
 // Program name

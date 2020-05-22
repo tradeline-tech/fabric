@@ -11,9 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/viperutil"
-	"github.com/hyperledger/fabric/core/config/configtest"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/viperutil"
+	"github.com/tradeline-tech/fabric/core/config/configtest"
 )
 
 func TestLoadGoodConfig(t *testing.T) {

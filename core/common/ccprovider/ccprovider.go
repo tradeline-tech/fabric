@@ -16,12 +16,12 @@ import (
 	"unicode"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric/core/ledger"
-	pb "github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/common/chaincode"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/common/privdata"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
 )
 
 var ccproviderLogger = flogging.MustGetLogger("ccprovider")

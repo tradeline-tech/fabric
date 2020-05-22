@@ -9,8 +9,9 @@ package comm
 import (
 	"context"
 
-	"github.com/hyperledger/fabric/common/semaphore"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/common/semaphore"
 )
 
 type Semaphore interface {

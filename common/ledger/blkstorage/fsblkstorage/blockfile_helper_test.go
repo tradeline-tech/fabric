@@ -12,9 +12,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/common/ledger/util"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/ledger/testutil"
+	"github.com/tradeline-tech/fabric/common/ledger/util"
 )
 
 func TestConstructCheckpointInfoFromBlockFiles(t *testing.T) {

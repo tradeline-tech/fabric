@@ -14,11 +14,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
 	"google.golang.org/grpc"
+
+	"github.com/tradeline-tech/fabric/core/comm"
+	"github.com/tradeline-tech/fabric/core/deliverservice/blocksprovider"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/orderer"
 )
 
 // broadcastSetup is a function that is called by the broadcastClient immediately after each

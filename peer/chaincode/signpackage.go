@@ -20,9 +20,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/core/common/ccpackage"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/spf13/cobra"
+
+	"github.com/tradeline-tech/fabric/core/common/ccpackage"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // signpackageCmd returns the cobra command for signing a package

@@ -12,10 +12,11 @@ import (
 	"math"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/core/chaincode/mock"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/chaincode"
+	"github.com/tradeline-tech/fabric/core/chaincode/mock"
+	"github.com/tradeline-tech/fabric/protos/ledger/queryresult"
 )
 
 const totalQueryLimit = 103

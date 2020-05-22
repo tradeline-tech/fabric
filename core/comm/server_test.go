@@ -22,15 +22,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/crypto/tlsgen"
-	"github.com/hyperledger/fabric/core/comm"
-	testpb "github.com/hyperledger/fabric/core/comm/testdata/grpc"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/status"
+
+	"github.com/tradeline-tech/fabric/common/crypto/tlsgen"
+	"github.com/tradeline-tech/fabric/core/comm"
+	testpb "github.com/tradeline-tech/fabric/core/comm/testdata/grpc"
 )
 
 // Embedded certificates for testing

@@ -12,8 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/util"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/gossip/util"
 )
 
 func init() {

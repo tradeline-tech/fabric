@@ -17,12 +17,12 @@ limitations under the License.
 package rwsetutil
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/tradeline-tech/fabric/core/ledger/util"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset"
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset/kvrwset"
 )
 
 var logger = flogging.MustGetLogger("rwsetutil")

@@ -12,13 +12,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
-	"github.com/hyperledger/fabric/core/comm"
-	testpb "github.com/hyperledger/fabric/core/comm/testdata/grpc"
 	. "github.com/onsi/gomega"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/stats"
+
+	"github.com/tradeline-tech/fabric/common/metrics"
+	"github.com/tradeline-tech/fabric/common/metrics/metricsfakes"
+	"github.com/tradeline-tech/fabric/core/comm"
+	testpb "github.com/tradeline-tech/fabric/core/comm/testdata/grpc"
 )
 
 func TestConnectionCounters(t *testing.T) {

@@ -10,14 +10,15 @@ import (
 	"fmt"
 	"sync"
 
-	commonerrors "github.com/hyperledger/fabric/common/errors"
-	"github.com/hyperledger/fabric/core/handlers/validation/api/policies"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
+
+	commonerrors "github.com/tradeline-tech/fabric/common/errors"
+	"github.com/tradeline-tech/fabric/core/handlers/validation/api/policies"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 /**********************************************************************************************************/

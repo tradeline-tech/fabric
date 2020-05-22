@@ -13,14 +13,15 @@ import (
 	"sync"
 	"time"
 
-	util2 "github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/committer"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	privdatacommon "github.com/hyperledger/fabric/gossip/privdata/common"
-	"github.com/hyperledger/fabric/protos/common"
-	gossip2 "github.com/hyperledger/fabric/protos/gossip"
 	"github.com/pkg/errors"
+
+	util2 "github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/committer"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/gossip/metrics"
+	privdatacommon "github.com/tradeline-tech/fabric/gossip/privdata/common"
+	"github.com/tradeline-tech/fabric/protos/common"
+	gossip2 "github.com/tradeline-tech/fabric/protos/gossip"
 )
 
 // ReconciliationFetcher interface which defines API to fetch

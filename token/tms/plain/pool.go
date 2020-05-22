@@ -12,9 +12,10 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/token/tms"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/protos/token"
+	"github.com/tradeline-tech/fabric/token/tms"
 )
 
 // OutputNotFoundError is returned when an entry was not found in the pool.

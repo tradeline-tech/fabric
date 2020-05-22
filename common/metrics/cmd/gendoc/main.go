@@ -13,8 +13,9 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/hyperledger/fabric/common/metrics/gendoc"
 	"golang.org/x/tools/go/packages"
+
+	"github.com/tradeline-tech/fabric/common/metrics/gendoc"
 )
 
 // Gendoc can be used used to discover the metrics options declared at the
@@ -32,7 +33,7 @@ func main() {
 
 	patterns := flag.Args()
 	if len(patterns) == 0 {
-		patterns = []string{"github.com/hyperledger/fabric/..."}
+		patterns = []string{"github.com/tradeline-tech/fabric/..."}
 	}
 
 	pkgs, err := packages.Load(&packages.Config{Mode: packages.LoadSyntax}, patterns...)

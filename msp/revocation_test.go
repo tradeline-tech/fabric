@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/bccsp/sw"
+	"github.com/tradeline-tech/fabric/protos/msp"
 )
 
 func TestRevocation(t *testing.T) {

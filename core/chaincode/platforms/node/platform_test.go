@@ -17,10 +17,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/spf13/viper"
+
+	"github.com/tradeline-tech/fabric/core/chaincode/platforms"
+	"github.com/tradeline-tech/fabric/core/config/configtest"
+	"github.com/tradeline-tech/fabric/protos/peer"
 )
 
 var _ = platforms.Platform(&Platform{})

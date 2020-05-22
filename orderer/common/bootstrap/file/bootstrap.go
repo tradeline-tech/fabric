@@ -9,9 +9,9 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/orderer/common/bootstrap"
-	cb "github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
+	"github.com/tradeline-tech/fabric/orderer/common/bootstrap"
+	cb "github.com/tradeline-tech/fabric/protos/common"
 )
 
 type fileBootstrapper struct {

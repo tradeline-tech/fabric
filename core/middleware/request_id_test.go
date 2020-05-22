@@ -10,10 +10,11 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/hyperledger/fabric/core/middleware"
-	"github.com/hyperledger/fabric/core/middleware/fakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/core/middleware"
+	"github.com/tradeline-tech/fabric/core/middleware/fakes"
 )
 
 var _ = Describe("WithRequestID", func() {

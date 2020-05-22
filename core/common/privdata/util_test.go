@@ -9,8 +9,9 @@ package privdata
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/protos/common"
 )
 
 func TestGetPolicy(t *testing.T) {

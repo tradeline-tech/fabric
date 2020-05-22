@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/stretchr/testify/assert"
+	"github.com/tradeline-tech/fabric/bccsp/utils"
 )
 
 func TestSanitizeCertWithRSA(t *testing.T) {

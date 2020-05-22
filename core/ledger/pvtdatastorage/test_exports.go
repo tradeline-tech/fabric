@@ -10,9 +10,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/core/ledger/ledgerconfig"
+	"github.com/tradeline-tech/fabric/core/ledger/pvtdatapolicy"
 )
 
 // StoreEnv provides the  store env for testing

@@ -12,12 +12,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/persistence"
-	"github.com/hyperledger/fabric/core/chaincode/persistence/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/util"
+	"github.com/tradeline-tech/fabric/core/chaincode/persistence"
+	"github.com/tradeline-tech/fabric/core/chaincode/persistence/mock"
 )
 
 var _ = Describe("Persistence", func() {

@@ -19,8 +19,9 @@ import (
 	"crypto/x509"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/attrmgr"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/attrmgr"
 )
 
 // TestAttrs tests attributes

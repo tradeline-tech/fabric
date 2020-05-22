@@ -15,10 +15,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/util"
 	"github.com/pkg/errors"
+
+	"github.com/tradeline-tech/fabric/common/chaincode"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/common/util"
 )
 
 var logger = flogging.MustGetLogger("chaincode.persistence")

@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/aclmgmt"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/peer"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/core/aclmgmt"
+	"github.com/tradeline-tech/fabric/core/chaincode/shim"
+	"github.com/tradeline-tech/fabric/core/ledger"
+	"github.com/tradeline-tech/fabric/core/peer"
+	pb "github.com/tradeline-tech/fabric/protos/peer"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 // New returns an instance of QSCC.
@@ -28,7 +28,7 @@ func New(aclProvider aclmgmt.ACLProvider) *LedgerQuerier {
 }
 
 func (e *LedgerQuerier) Name() string              { return "qscc" }
-func (e *LedgerQuerier) Path() string              { return "github.com/hyperledger/fabric/core/scc/qscc" }
+func (e *LedgerQuerier) Path() string              { return "github.com/tradeline-tech/fabric/core/scc/qscc" }
 func (e *LedgerQuerier) InitArgs() [][]byte        { return nil }
 func (e *LedgerQuerier) Chaincode() shim.Chaincode { return e }
 func (e *LedgerQuerier) InvokableExternal() bool   { return true }

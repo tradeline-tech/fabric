@@ -4,7 +4,7 @@ package mock
 import (
 	sync "sync"
 
-	chaincode "github.com/hyperledger/fabric/common/chaincode"
+	chaincode "github.com/tradeline-tech/fabric/common/chaincode"
 )
 
 type StorePackageProvider struct {

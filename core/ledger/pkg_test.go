@@ -8,8 +8,9 @@ package ledger
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/protos/ledger/rwset"
 )
 
 func TestTxPvtData(t *testing.T) {

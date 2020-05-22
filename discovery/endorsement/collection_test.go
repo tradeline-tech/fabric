@@ -11,15 +11,16 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/gossip/api"
-	gcommon "github.com/hyperledger/fabric/gossip/common"
-	disc "github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/tradeline-tech/fabric/common/policies"
+	"github.com/tradeline-tech/fabric/gossip/api"
+	gcommon "github.com/tradeline-tech/fabric/gossip/common"
+	disc "github.com/tradeline-tech/fabric/gossip/discovery"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/discovery"
+	"github.com/tradeline-tech/fabric/protos/msp"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 func TestPrincipalsFromCollectionConfig(t *testing.T) {

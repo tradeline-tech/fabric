@@ -9,8 +9,9 @@ package endorser
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
 	. "github.com/onsi/gomega"
+
+	"github.com/tradeline-tech/fabric/common/metrics/metricsfakes"
 )
 
 func TestNewEndorserMetrics(t *testing.T) {

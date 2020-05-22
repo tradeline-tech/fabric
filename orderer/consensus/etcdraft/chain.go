@@ -16,18 +16,19 @@ import (
 
 	"code.cloudfoundry.org/clock"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/orderer/common/cluster"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/orderer/etcdraft"
-	"github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
 	"go.etcd.io/etcd/raft"
 	"go.etcd.io/etcd/raft/raftpb"
 	"go.etcd.io/etcd/wal"
+
+	"github.com/tradeline-tech/fabric/common/configtx"
+	"github.com/tradeline-tech/fabric/common/flogging"
+	"github.com/tradeline-tech/fabric/orderer/common/cluster"
+	"github.com/tradeline-tech/fabric/orderer/consensus"
+	"github.com/tradeline-tech/fabric/protos/common"
+	"github.com/tradeline-tech/fabric/protos/orderer"
+	"github.com/tradeline-tech/fabric/protos/orderer/etcdraft"
+	"github.com/tradeline-tech/fabric/protos/utils"
 )
 
 const (
