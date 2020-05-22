@@ -49,14 +49,20 @@ PREV_VERSION = 1.4.7
 CHAINTOOL_RELEASE=1.1.3
 BASEIMAGE_RELEASE=0.4.20
 
+ifneq ("$(wildcard Makefile.env)","")
+include Makefile.env
+endif
+
 # Allow to build as a submodule setting the main project to
 # the PROJECT_NAME env variable, for example,
 # export PROJECT_NAME=hyperledger/fabric-test
-ifeq ($(PROJECT_NAME),true)
-PROJECT_NAME = $(PROJECT_NAME)/fabric
+ifdef PROJECT_NAME
+PROJECT_NAME := $(PROJECT_NAME)/fabric
 else
 PROJECT_NAME = hyperledger/fabric
 endif
+
+$(info $$PROJECT_NAME is [${PROJECT_NAME}])
 
 BUILD_DIR ?= .build
 
